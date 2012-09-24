@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 European Banking Authority, Tower 42, 25 Old Broad Street, London, EC2N 1HQ, United Kingdom. --><!-- Skeleton instance -->
+<xbrli:xbrl
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:p-cm-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-cm-ca-2006-07-01"
+  xmlns:d-cr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-cr-2006-07-01"
+  xmlns:d-ba="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ba-2006-07-01"
+  xmlns:d-mr="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-mr-2006-07-01"
+  xmlns:d-ut="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ut-2006-07-01"
+  xmlns:d-cu="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-cu-2006-07-01"
+  xmlns:d-oe="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-oe-2006-07-01"
+  xmlns:d-ec="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-ec-2006-07-01"
+  xmlns:p-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/p-ca-2006-07-01"
+  xmlns:t-kri-corep-ca="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/t-kri-corep-ca-2006-07-01"
+  xmlns:d-st="http://www.c-ebs.org/eu/fr/esrs/corep/2006-07-01/d-st-2006-07-01"
+>
+  <link:schemaRef xlink:type="simple" xlink:href="..\Taxonomies\t-kri-corep-ca-2006-07-01.xsd"/>
+  <xbrli:unit id="U-EUR"><xbrli:measure>iso4217:EUR</xbrli:measure></xbrli:unit>
+  <xbrli:unit id="U-PURE"><xbrli:measure>xbrli:pure</xbrli:measure></xbrli:unit>
+  <xbrli:context id="I_CreditRiskTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRB">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRB</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBEquity">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBEquity</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBOtherNonCreditObligationAssets">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBOtherNonCreditObligationAssets</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskSA">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskSA</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_TotalBankingActivities">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-ba:BankActivityDimension">d-ba:TotalBankingActivities</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_TotalBankingActivitiesSubjectBIA">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-ba:BankActivityDimension">d-ba:TotalBankingActivitiesSubjectBIA</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_TotalBankingActivitiesSubjectSTAAlternative">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-ba:BankActivityDimension">d-ba:TotalBankingActivitiesSubjectSTAAlternative</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_TotalBankingActivitiesSubjectAMA">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-ba:BankActivityDimension">d-ba:TotalBankingActivitiesSubjectAMA</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_MRiskTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-mr:MarketRiskDimension">d-mr:MRiskTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_MRiskIMTotalPositions">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-mr:MarketRiskDimension">d-mr:MRiskIMTotalPositions</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_MRiskSAEQUTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-mr:MarketRiskDimension">d-mr:MRiskSAEQUTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_MRiskSAFXTotalPositionsNonReportingCurrencies">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-mr:MarketRiskDimension">d-mr:MRiskSAFXTotalPositionsNonReportingCurrencies</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_MRiskSACOMTotal">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-mr:MarketRiskDimension">d-mr:MRiskSACOMTotal</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_TotalUnsettledTransactionsInTheTradingBook">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-ut:UnsettledTransactionsDimension">d-ut:TotalUnsettledTransactionsInTheTradingBook</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_MRiskSATDITotal_Total">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-mr:MarketRiskDimension">d-mr:MRiskSATDITotal</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-cu:CurrencyDimension">d-cu:Total</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBCreditCounterpartyCreditDelivery_NotOwnEstimatesLGDConversionFactors_TotalIRBExposureClass">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBCreditCounterpartyCreditDelivery</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-oe:OwnEstimatesofLGDAndOrConversionFactorsDimension">d-oe:NotOwnEstimatesLGDConversionFactors</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-ec:ExposureClassDimension">d-ec:TotalIRBExposureClass</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBCreditCounterpartyCreditDelivery_NotOwnEstimatesLGDConversionFactors_IRBECCentralGovernmentsAndCentralBanks">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBCreditCounterpartyCreditDelivery</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-oe:OwnEstimatesofLGDAndOrConversionFactorsDimension">d-oe:NotOwnEstimatesLGDConversionFactors</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-ec:ExposureClassDimension">d-ec:IRBECCentralGovernmentsAndCentralBanks</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBCreditCounterpartyCreditDelivery_NotOwnEstimatesLGDConversionFactors_IRBECInstitutions">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBCreditCounterpartyCreditDelivery</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-oe:OwnEstimatesofLGDAndOrConversionFactorsDimension">d-oe:NotOwnEstimatesLGDConversionFactors</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-ec:ExposureClassDimension">d-ec:IRBECInstitutions</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBCreditCounterpartyCreditDelivery_NotOwnEstimatesLGDConversionFactors_IRBECCorporates">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBCreditCounterpartyCreditDelivery</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-oe:OwnEstimatesofLGDAndOrConversionFactorsDimension">d-oe:NotOwnEstimatesLGDConversionFactors</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-ec:ExposureClassDimension">d-ec:IRBECCorporates</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_TotalIRBExposureClass">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBCreditCounterpartyCreditDelivery</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-oe:OwnEstimatesofLGDAndOrConversionFactorsDimension">d-oe:OwnEstimatesLGDConversionFactors</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-ec:ExposureClassDimension">d-ec:TotalIRBExposureClass</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_IRBECCentralGovernmentsAndCentralBanks">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBCreditCounterpartyCreditDelivery</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-oe:OwnEstimatesofLGDAndOrConversionFactorsDimension">d-oe:OwnEstimatesLGDConversionFactors</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-ec:ExposureClassDimension">d-ec:IRBECCentralGovernmentsAndCentralBanks</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_IRBECInstitutions">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBCreditCounterpartyCreditDelivery</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-oe:OwnEstimatesofLGDAndOrConversionFactorsDimension">d-oe:OwnEstimatesLGDConversionFactors</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-ec:ExposureClassDimension">d-ec:IRBECInstitutions</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_IRBECCorporates">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBCreditCounterpartyCreditDelivery</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-oe:OwnEstimatesofLGDAndOrConversionFactorsDimension">d-oe:OwnEstimatesLGDConversionFactors</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-ec:ExposureClassDimension">d-ec:IRBECCorporates</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_IRBECRetail">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBCreditCounterpartyCreditDelivery</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-oe:OwnEstimatesofLGDAndOrConversionFactorsDimension">d-oe:OwnEstimatesLGDConversionFactors</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-ec:ExposureClassDimension">d-ec:IRBECRetail</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskSASecuritization_TotalSecuritisation">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskSASecuritization</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-st:SecuritizationTypeDimension">d-st:TotalSecuritisation</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_CreditRiskIRBSecuritization_TotalSecuritisation">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.banque-france.fr/fr/supervi/supervi_banc/reporting/cib">10008</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2010-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="d-cr:CreditRiskDimension">d-cr:CreditRiskIRBSecuritization</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="d-st:SecuritizationTypeDimension">d-st:TotalSecuritisation</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskTotal" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRB" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBEquity" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBOtherNonCreditObligationAssets" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskSA" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:OperationalRiskCapitalRequirements contextRef="I_TotalBankingActivities" unitRef="U-EUR" decimals="0">0</p-cm-ca:OperationalRiskCapitalRequirements>
+  <p-cm-ca:OperationalRiskCapitalRequirements contextRef="I_TotalBankingActivitiesSubjectBIA" unitRef="U-EUR" decimals="0">0</p-cm-ca:OperationalRiskCapitalRequirements>
+  <p-cm-ca:OperationalRiskCapitalRequirements contextRef="I_TotalBankingActivitiesSubjectSTAAlternative" unitRef="U-EUR" decimals="0">0</p-cm-ca:OperationalRiskCapitalRequirements>
+  <p-cm-ca:OperationalRiskCapitalRequirements contextRef="I_TotalBankingActivitiesSubjectAMA" unitRef="U-EUR" decimals="0">0</p-cm-ca:OperationalRiskCapitalRequirements>
+  <p-cm-ca:MarketRiskCapitalRequirements contextRef="I_MRiskTotal" unitRef="U-EUR" decimals="0">0</p-cm-ca:MarketRiskCapitalRequirements>
+  <p-cm-ca:MarketRiskCapitalRequirements contextRef="I_MRiskIMTotalPositions" unitRef="U-EUR" decimals="0">0</p-cm-ca:MarketRiskCapitalRequirements>
+  <p-cm-ca:MarketRiskCapitalRequirements contextRef="I_MRiskSAEQUTotal" unitRef="U-EUR" decimals="0">0</p-cm-ca:MarketRiskCapitalRequirements>
+  <p-cm-ca:MarketRiskCapitalRequirements contextRef="I_MRiskSAFXTotalPositionsNonReportingCurrencies" unitRef="U-EUR" decimals="0">0</p-cm-ca:MarketRiskCapitalRequirements>
+  <p-cm-ca:MarketRiskCapitalRequirements contextRef="I_MRiskSACOMTotal" unitRef="U-EUR" decimals="0">0</p-cm-ca:MarketRiskCapitalRequirements>
+  <p-cm-ca:SettlementRiskCapitalRequirements contextRef="I_TotalUnsettledTransactionsInTheTradingBook" unitRef="U-EUR" decimals="0">0</p-cm-ca:SettlementRiskCapitalRequirements>
+  <p-cm-ca:MarketRiskCapitalRequirements contextRef="I_MRiskSATDITotal_Total" unitRef="U-EUR" decimals="0">0</p-cm-ca:MarketRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBCreditCounterpartyCreditDelivery_NotOwnEstimatesLGDConversionFactors_TotalIRBExposureClass" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBCreditCounterpartyCreditDelivery_NotOwnEstimatesLGDConversionFactors_IRBECCentralGovernmentsAndCentralBanks" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBCreditCounterpartyCreditDelivery_NotOwnEstimatesLGDConversionFactors_IRBECInstitutions" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBCreditCounterpartyCreditDelivery_NotOwnEstimatesLGDConversionFactors_IRBECCorporates" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_TotalIRBExposureClass" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_IRBECCentralGovernmentsAndCentralBanks" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_IRBECInstitutions" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_IRBECCorporates" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBCreditCounterpartyCreditDelivery_OwnEstimatesLGDConversionFactors_IRBECRetail" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <t-kri-corep-ca:DataSourceType contextRef="I">1</t-kri-corep-ca:DataSourceType>
+  <t-kri-corep-ca:DataQualityComment contextRef="I">Reviewed</t-kri-corep-ca:DataQualityComment>
+  <p-cm-ca:TotalOwnFundsSolvencyPurposes contextRef="I" unitRef="U-EUR" decimals="0">0</p-cm-ca:TotalOwnFundsSolvencyPurposes>
+  <p-ca:OriginalOwnFunds contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OriginalOwnFunds>
+  <p-ca:EligibleCapital contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:EligibleCapital>
+  <p-ca:PaidUpCapital contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:PaidUpCapital>
+  <p-ca:OwnShares contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OwnShares>
+  <p-ca:SharePremium contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:SharePremium>
+  <p-ca:OtherInstrumentsEligibleCapital contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OtherInstrumentsEligibleCapital>
+  <p-ca:EligibleReserves contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:EligibleReserves>
+  <p-ca:Reserves contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:Reserves>
+  <p-ca:MinorityInterest contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:MinorityInterest>
+  <p-ca:OfWhichHybridInstrumentsThatMustBeConvertedDuringEmergencySituations contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OfWhichHybridInstrumentsThatMustBeConvertedDuringEmergencySituations>
+  <p-ca:OfWhichHybridInstrumentsUndatedWithoutIncentiveToRedeem contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OfWhichHybridInstrumentsUndatedWithoutIncentiveToRedeem>
+  <p-ca:OfWhichHybridInstrumentsDatedOrIncentiveToRedeem contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OfWhichHybridInstrumentsDatedOrIncentiveToRedeem>
+  <p-ca:OfWhichGrandfatheredInstrumentsWithoutIncentiveToRedeemSubjectToLimit contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OfWhichGrandfatheredInstrumentsWithoutIncentiveToRedeemSubjectToLimit>
+  <p-ca:OfWhichGrandfatheredInstrumentsWithIncentiveToRedeemSubjectToLimit contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OfWhichGrandfatheredInstrumentsWithIncentiveToRedeemSubjectToLimit>
+  <p-ca:FundsGeneralBankingRisks contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:FundsGeneralBankingRisks>
+  <p-ca:OtherCountrySpecificOriginalOwnFunds contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OtherCountrySpecificOriginalOwnFunds>
+  <p-ca:HybridInstrumentsConvertedDuringEmergencySituations contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:HybridInstrumentsConvertedDuringEmergencySituations>
+  <p-ca:HybridInstrumentsUndatedWithoutIncentiveToRedeem contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:HybridInstrumentsUndatedWithoutIncentiveToRedeem>
+  <p-ca:HybridInstrumentsDatedOrIncentiveToRedeem contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:HybridInstrumentsDatedOrIncentiveToRedeem>
+  <p-ca:GrandfatheredHybridInstrumentsWithoutIncentiveToRedeemSubjectToLimit contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:GrandfatheredHybridInstrumentsWithoutIncentiveToRedeemSubjectToLimit>
+  <p-ca:GrandfatheredHybridInstrumentsWithIncentiveToRedeemSubjectToLimit contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:GrandfatheredHybridInstrumentsWithIncentiveToRedeemSubjectToLimit>
+  <p-ca:OtherDeductionsOriginalOwnFunds contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OtherDeductionsOriginalOwnFunds>
+  <p-ca:IntangibleAssets contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:IntangibleAssets>
+  <p-ca:ExcessOnLimitsForHybridInstruments contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:ExcessOnLimitsForHybridInstruments>
+  <p-ca:AdditionalOwnFunds contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:AdditionalOwnFunds>
+  <p-ca:DeductionsOriginalAdditionalOwnFunds contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:DeductionsOriginalAdditionalOwnFunds>
+  <p-ca:OfWhichOriginalOwnFunds contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OfWhichOriginalOwnFunds>
+  <p-ca:OfWhichFromAdditionalOwnFunds contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OfWhichFromAdditionalOwnFunds>
+  <p-ca:HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:HoldingsOtherCreditFinancialInstitutionsAmountingMore10PercentCapital>
+  <p-ca:SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:SubordinatedClaimsOtherItemsOtherCreditFinancialInstitutionsHoldingsExceed10PercentCapital>
+  <p-ca:ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:ExcessLimitHoldingsSubordinatedClaimsOtherItemsCreditFinancialInstitutionsHoldings10PercentCapital>
+  <p-ca:ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:ParticipationsHoldInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompanies>
+  <p-ca:OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:OtherInstrumentsHoldRespectInsuranceUndertakingsReinsuranceUndertakingsInsuranceHoldingCompaniesParticipationIsMaintained>
+  <p-ca:IRBProvisionShortfall contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:IRBProvisionShortfall>
+  <p-cm-ca:TotalOriginalOwnFundsGeneralSolvencyPurposes contextRef="I" unitRef="U-EUR" decimals="0">0</p-cm-ca:TotalOriginalOwnFundsGeneralSolvencyPurposes>
+  <p-ca:TotalAdditionalOwnFundsGeneralSolvencyPurposes contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:TotalAdditionalOwnFundsGeneralSolvencyPurposes>
+  <p-ca:TotalAdditionalOwnFundsSpecificCoverMarketRisks contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:TotalAdditionalOwnFundsSpecificCoverMarketRisks>
+  <p-cm-ca:CapitalRequirements contextRef="I" unitRef="U-EUR" decimals="0">0</p-cm-ca:CapitalRequirements>
+  <p-ca:ComplementsOverallFloorCapitalRequirements contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:ComplementsOverallFloorCapitalRequirements>
+  <p-ca:SurplusDeficitOwnFundsBeforeOtherAndTransitionalCapitalRequirements contextRef="I" unitRef="U-EUR" decimals="0">0</p-ca:SurplusDeficitOwnFundsBeforeOtherAndTransitionalCapitalRequirements>
+  <p-ca:SolvencyRatioBeforeOtherAndTransitionalCapitalRequirements contextRef="I" unitRef="U-PURE" decimals="INF">0.01</p-ca:SolvencyRatioBeforeOtherAndTransitionalCapitalRequirements>
+  <p-cm-ca:SurplusDeficitOwnFunds contextRef="I" unitRef="U-EUR" decimals="0">0</p-cm-ca:SurplusDeficitOwnFunds>
+  <p-ca:SolvencyRatio contextRef="I" unitRef="U-PURE" decimals="INF">0.01</p-ca:SolvencyRatio>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskSASecuritization_TotalSecuritisation" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+  <p-cm-ca:CreditRiskCapitalRequirements contextRef="I_CreditRiskIRBSecuritization_TotalSecuritisation" unitRef="U-EUR" decimals="0">0</p-cm-ca:CreditRiskCapitalRequirements>
+</xbrli:xbrl>

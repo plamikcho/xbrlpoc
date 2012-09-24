@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="../stylesheet/CH-AE-stylesheet.xsl" ?>
+
+<xbrl xmlns='http://www.xbrl.org/2003/instance' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ae='http://www.companieshouse.gov.uk/ef/xbrl/uk/fr/gaap/ae/2009-06-21' xmlns:gc='http://www.xbrl.org/uk/fr/gcd/2004-12-01' xmlns:html='http://www.w3.org/1999/xhtml' xmlns:iso4217='http://www.xbrl.org/2003/iso4217' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:pt='http://www.xbrl.org/uk/fr/gaap/pt/2004-12-01' xmlns:xbrli='http://www.xbrl.org/2003/instance' xmlns:xlink='http://www.w3.org/1999/xlink'>
+  <link:schemaRef xlink:href='http://www.companieshouse.gov.uk/ef/xbrl/uk/fr/gaap/ae/2009-06-21/uk-gaap-ae-2009-06-21.xsd' xlink:type='simple' />
+  <ae:CompanyNotDormant contextRef='y2003'>true</ae:CompanyNotDormant>
+  <ae:CompaniesHouseRegisteredNumber contextRef='y2003'>123456</ae:CompaniesHouseRegisteredNumber>
+  <ae:CompaniesHouseDocumentAuthentication contextRef='y2003'>ABCDEF</ae:CompaniesHouseDocumentAuthentication>
+  <gc:EntityNames>
+    <gc:EntityCurrentLegalName contextRef='y2003'>No-Energy Ltd</gc:EntityCurrentLegalName>
+  </gc:EntityNames>
+  <gc:BalanceSheetDate contextRef='e2003'>2003-10-31</gc:BalanceSheetDate>
+  <ae:DateAccountsReceived contextRef='e2003'>2003-11-13</ae:DateAccountsReceived>
+  <ae:ReportingAccountants>
+    <ae:NameAccountants contextRef='y2003'>A N Accountant</ae:NameAccountants>
+    <ae:DescriptionAccountants contextRef='y2003'>Chartered Accountants</ae:DescriptionAccountants>
+    <ae:AddressCH>
+      <gc:AddressLine1 contextRef='y2003'>High Street</gc:AddressLine1>
+      <gc:CityOrTown contextRef='y2003'>London</gc:CityOrTown>
+      <gc:Postcode contextRef='y2003'>SA11 2JU</gc:Postcode>
+    </ae:AddressCH>
+  </ae:ReportingAccountants>
+  <pt:TangibleFixedAssets precision='INF' id='s2-1' contextRef='e2003' unitRef='USD'>7464</pt:TangibleFixedAssets>
+  <pt:TangibleFixedAssets precision='INF' id='s2-2' contextRef='e2002' unitRef='euro'>9054</pt:TangibleFixedAssets>
+  <pt:IntangibleFixedAssets precision='INF' id='s2-3' contextRef='e2003' unitRef='USD'>750</pt:IntangibleFixedAssets>
+  <pt:IntangibleFixedAssets precision='INF' id='s2-4' contextRef='e2002' unitRef='euro'>900</pt:IntangibleFixedAssets>
+  <pt:TotalInvestmentsFixedAssets precision='INF' contextRef='e2003' unitRef='USD'>0</pt:TotalInvestmentsFixedAssets>
+  <pt:TotalInvestmentsFixedAssets precision='INF' contextRef='e2002' unitRef='euro'>0</pt:TotalInvestmentsFixedAssets>
+  <pt:FixedAssets precision='INF' contextRef='e2003' unitRef='USD'>8214</pt:FixedAssets>
+  <pt:FixedAssets precision='INF' contextRef='e2002' unitRef='euro'>9954</pt:FixedAssets>
+  <pt:Debtors precision='INF' id='s3-1' contextRef='e2003' unitRef='USD'>3767</pt:Debtors>
+  <pt:Debtors precision='INF' id='s3-2' contextRef='e2002' unitRef='euro'>2685</pt:Debtors>
+  <pt:StocksInventory precision='INF' contextRef='e2003' unitRef='USD'>694</pt:StocksInventory>
+  <pt:StocksInventory precision='INF' contextRef='e2002' unitRef='euro'>543</pt:StocksInventory>
+  <pt:CashBankInHand precision='INF' contextRef='e2003' unitRef='USD'>1822</pt:CashBankInHand>
+  <pt:CashBankInHand precision='INF' contextRef='e2002' unitRef='euro'>1593</pt:CashBankInHand>
+  <pt:CurrentAssets precision='INF' contextRef='e2003' unitRef='USD'>6283</pt:CurrentAssets>
+  <pt:CurrentAssets precision='INF' contextRef='e2002' unitRef='euro'>4821</pt:CurrentAssets>
+  <pt:CreditorsDueWithinOneYearTotalCurrentLiabilities precision='INF' id='s4-1' contextRef='e2003' unitRef='USD'>2965</pt:CreditorsDueWithinOneYearTotalCurrentLiabilities>
+  <pt:CreditorsDueWithinOneYearTotalCurrentLiabilities precision='INF' id='s4-2' contextRef='e2002' unitRef='euro'>2456</pt:CreditorsDueWithinOneYearTotalCurrentLiabilities>
+  <pt:NetCurrentAssetsLiabilities precision='INF' contextRef='e2003' unitRef='USD'>3318</pt:NetCurrentAssetsLiabilities>
+  <pt:NetCurrentAssetsLiabilities precision='INF' contextRef='e2002' unitRef='euro'>2365</pt:NetCurrentAssetsLiabilities>
+  <pt:TotalAssetsLessCurrentLiabilities precision='INF' contextRef='e2003' unitRef='USD'>11532</pt:TotalAssetsLessCurrentLiabilities>
+  <pt:TotalAssetsLessCurrentLiabilities precision='INF' contextRef='e2002' unitRef='euro'>12319</pt:TotalAssetsLessCurrentLiabilities>
+  <pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities precision='INF' id='s5-1' contextRef='e2003' unitRef='USD'>4775</pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities>
+  <pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities precision='INF' id='s5-2' contextRef='e2002' unitRef='euro'>5550</pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities>
+  <pt:ProvisionsForLiabilitiesCharges precision='INF' contextRef='e2003' unitRef='USD'>225</pt:ProvisionsForLiabilitiesCharges>
+  <pt:ProvisionsForLiabilitiesCharges precision='INF' contextRef='e2002' unitRef='euro'>225</pt:ProvisionsForLiabilitiesCharges>
+  <pt:NetAssetsLiabilitiesIncludingPensionAssetLiability precision='INF' contextRef='e2003' unitRef='USD'>6532</pt:NetAssetsLiabilitiesIncludingPensionAssetLiability>
+  <pt:NetAssetsLiabilitiesIncludingPensionAssetLiability precision='INF' contextRef='e2002' unitRef='euro'>6544</pt:NetAssetsLiabilitiesIncludingPensionAssetLiability>
+  <pt:CalledUpShareCapital precision='INF' id='s6-1' contextRef='e2003' unitRef='USD'>100</pt:CalledUpShareCapital>
+  <pt:CalledUpShareCapital precision='INF' id='s6-2' contextRef='e2002' unitRef='euro'>100</pt:CalledUpShareCapital>
+  <pt:ShareholderFunds precision='INF' contextRef='e2003' unitRef='USD'>6532</pt:ShareholderFunds>
+  <pt:ShareholderFunds precision='INF' contextRef='e2002' unitRef='euro'>6544</pt:ShareholderFunds>
+  <ae:CompanyEntitledToExemptionUnderSection249A1CompaniesAct1985 contextRef='y2003'>true</ae:CompanyEntitledToExemptionUnderSection249A1CompaniesAct1985>
+  <ae:MembersHaveNotRequiredCompanyToObtainAnAudit contextRef='y2003'>true</ae:MembersHaveNotRequiredCompanyToObtainAnAudit>
+  <ae:DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct contextRef='y2003'>true</ae:DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct>
+  <ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies contextRef='y2003'>true</ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies>
+  <pt:DateApproval contextRef='e2003'>2004-08-11</pt:DateApproval>
+  <pt:ApprovalDetails>
+    <pt:NameApprovingDirector contextRef='y2003'>G Rich</pt:NameApprovingDirector>
+  </pt:ApprovalDetails>
+  <pt:TurnoverGrossOperatingRevenue precision='INF' id='s9-1' contextRef='y2003' unitRef='USD'>26562</pt:TurnoverGrossOperatingRevenue>
+  <pt:TurnoverGrossOperatingRevenue precision='INF' id='s9-2' contextRef='y2002' unitRef='euro'>22232</pt:TurnoverGrossOperatingRevenue>
+  <pt:CostSales precision='INF' contextRef='y2003' unitRef='USD'>8708</pt:CostSales>
+  <pt:CostSales precision='INF' contextRef='y2002' unitRef='euro'>7423</pt:CostSales>
+  <pt:GrossProfitLoss precision='INF' contextRef='y2003' unitRef='USD'>17854</pt:GrossProfitLoss>
+  <pt:GrossProfitLoss precision='INF' contextRef='y2002' unitRef='euro'>14809</pt:GrossProfitLoss>
+  <pt:DistributionCosts precision='INF' contextRef='y2003' unitRef='USD'>3694</pt:DistributionCosts>
+  <pt:DistributionCosts precision='INF' contextRef='y2002' unitRef='euro'>2974</pt:DistributionCosts>
+  <pt:AdministrativeExpenses precision='INF' contextRef='y2003' unitRef='USD'>9786</pt:AdministrativeExpenses>
+  <pt:AdministrativeExpenses precision='INF' contextRef='y2002' unitRef='euro'>7453</pt:AdministrativeExpenses>
+  <pt:TotalOperatingProfitLoss precision='INF' contextRef='y2003' unitRef='USD'>4374</pt:TotalOperatingProfitLoss>
+  <pt:TotalOperatingProfitLoss precision='INF' contextRef='y2002' unitRef='euro'>4382</pt:TotalOperatingProfitLoss>
+  <pt:ProfitLossOnOrdinaryActivitiesBeforeTax precision='INF' contextRef='y2003' unitRef='USD'>4374</pt:ProfitLossOnOrdinaryActivitiesBeforeTax>
+  <pt:ProfitLossOnOrdinaryActivitiesBeforeTax precision='INF' contextRef='y2002' unitRef='euro'>4382</pt:ProfitLossOnOrdinaryActivitiesBeforeTax>
+  <pt:TaxRelatedToProfitOrLossOnOrdinaryActivities precision='INF' contextRef='y2003' unitRef='USD'>1455</pt:TaxRelatedToProfitOrLossOnOrdinaryActivities>
+  <pt:TaxRelatedToProfitOrLossOnOrdinaryActivities precision='INF' contextRef='y2002' unitRef='euro'>1014</pt:TaxRelatedToProfitOrLossOnOrdinaryActivities>
+  <pt:ProfitLossOnOrdinaryActivitiesAfterTax precision='INF' contextRef='y2003' unitRef='USD'>2919</pt:ProfitLossOnOrdinaryActivitiesAfterTax>
+  <pt:ProfitLossOnOrdinaryActivitiesAfterTax precision='INF' contextRef='y2002' unitRef='euro'>3368</pt:ProfitLossOnOrdinaryActivitiesAfterTax>
+  <pt:GrossDividendPayment-AllShares precision='INF' contextRef='y2003' unitRef='USD'>3500</pt:GrossDividendPayment-AllShares>
+  <pt:GrossDividendPayment-AllShares precision='INF' contextRef='y2002' unitRef='euro'>2500</pt:GrossDividendPayment-AllShares>
+  <pt:RetainedProfitLossForFinancialYearTransferredToReserves precision='INF' contextRef='y2003' unitRef='USD'>-581</pt:RetainedProfitLossForFinancialYearTransferredToReserves>
+  <pt:RetainedProfitLossForFinancialYearTransferredToReserves precision='INF' contextRef='y2002' unitRef='euro'>868</pt:RetainedProfitLossForFinancialYearTransferredToReserves>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='e2003' unitRef='USD'>6432</pt:ProfitLossAccountReserve>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='s2003' unitRef='USD'>1234</pt:ProfitLossAccountReserve>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='e2002' unitRef='euro'>6444</pt:ProfitLossAccountReserve>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='s2002' unitRef='euro'>5360</pt:ProfitLossAccountReserve>
+  <ae:AccountsPreparedUnderHistoricalCostConventionInAccordanceWithFRSE contextRef='y2003'>true</ae:AccountsPreparedUnderHistoricalCostConventionInAccordanceWithFRSE>
+  <ae:AccountingPolicy>
+    <ae:TitleAccountingPolicy contextRef='y2003'>Turnover</ae:TitleAccountingPolicy>
+    <ae:ContentAccountingPolicy contextRef='y2003'>Turnover represents the invoiced value of goods and services supplied by the company, net of VAT and trade discounts.</ae:ContentAccountingPolicy>
+  </ae:AccountingPolicy>
+  <ae:AccountingPolicy>
+    <ae:TitleAccountingPolicy contextRef='y2003'>Stocks</ae:TitleAccountingPolicy>
+    <ae:ContentAccountingPolicy contextRef='y2003'>Stock is valued at the lower of cost and net realisable value</ae:ContentAccountingPolicy>
+  </ae:AccountingPolicy>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Land &amp; Buildings</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.1</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Furniture</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.2</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Computer Equipment</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.2</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Communications Equipment</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.2</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Motor Vehicles</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.25</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DirectorShareholding>
+    <pt:DirectorOrExecutivesName contextRef='y2003'>G Rich</pt:DirectorOrExecutivesName>
+    <ae:Shareholding>
+      <pt:DescriptionSharesOrDebentures contextRef='y2003'>&#163;1 Ordinary shares</pt:DescriptionSharesOrDebentures>
+      <pt:SharesDirectorOrExecutive precision='INF' contextRef='e2002' unitRef='shares'>50</pt:SharesDirectorOrExecutive>
+    </ae:Shareholding>
+  </ae:DirectorShareholding>
+  <ae:DateApprovalDirectorsReport contextRef='e2003'>2004-04-13</ae:DateApprovalDirectorsReport>
+  <ae:ApprovalDirectorsReport>
+    <ae:NamePersonApprovingDirectorsReport contextRef='y2003'>G Rich</ae:NamePersonApprovingDirectorsReport>
+    <ae:PositionPersonApprovingDirectorsReport contextRef='y2003'>Director</ae:PositionPersonApprovingDirectorsReport>
+  </ae:ApprovalDirectorsReport>
+  <pt:EquityAuthorisedDetails>
+    <pt:TypeOrdinaryShare contextRef='y2003'>A shares</pt:TypeOrdinaryShare>
+    <pt:NumberOrdinarySharesAuthorised precision='INF' contextRef='e2003' unitRef='shares'>1000</pt:NumberOrdinarySharesAuthorised>
+    <pt:ParValueOrdinaryShare precision='INF' contextRef='y2003' unitRef='USD'>1</pt:ParValueOrdinaryShare>
+    <pt:ValueOrdinarySharesAuthorised precision='INF' contextRef='e2003' unitRef='USD'>1000</pt:ValueOrdinarySharesAuthorised>
+    <pt:ValueOrdinarySharesAuthorised precision='INF' contextRef='e2002' unitRef='USD'>1000</pt:ValueOrdinarySharesAuthorised>
+  </pt:EquityAuthorisedDetails>
+  <pt:DetailsOrdinarySharesAllotted>
+    <pt:TypeOrdinaryShare contextRef='y2003'>A shares</pt:TypeOrdinaryShare>
+    <pt:ParValueOrdinaryShare precision='INF' contextRef='y2003' unitRef='USD'>1</pt:ParValueOrdinaryShare>
+    <pt:ValueOrdinarySharesAllotted precision='INF' contextRef='e2003' unitRef='USD'>100</pt:ValueOrdinarySharesAllotted>
+    <pt:ValueOrdinarySharesAllotted precision='INF' contextRef='e2002' unitRef='USD'>50</pt:ValueOrdinarySharesAllotted>
+    <pt:NumberOrdinarySharesAllotted precision='INF' contextRef='e2003' unitRef='shares'>100</pt:NumberOrdinarySharesAllotted>
+  </pt:DetailsOrdinarySharesAllotted>
+  <ae:ForeignExchangeRate contextRef='y2003'>Using $1.77 to &#163;1 for FY 2002/3, averaged over the period</ae:ForeignExchangeRate>
+  <ae:ForeignExchangeRate contextRef='y2002'>Using €1.49 to &#163;1 for FY 2001/2, averaged over the period</ae:ForeignExchangeRate>
+  <gc:EntityBusinessDescription contextRef='y2003'>The company activity</gc:EntityBusinessDescription>
+  <unit id='shares'>
+    <measure>xbrli:shares</measure>
+  </unit>
+  <unit id='GBP'>
+    <measure>iso4217:GBP</measure>
+  </unit>
+  <unit id='USD'>
+    <measure>iso4217:USD</measure>
+  </unit>
+  <unit id='pounds'>
+    <measure>iso4217:GBP</measure>
+  </unit>
+  <unit id='euro'>
+    <measure>iso4217:EUR</measure>
+  </unit>
+  <unit id='pure'>
+    <measure>xbrli:pure</measure>
+  </unit>
+  <context id='y2003'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <startDate>2002-11-01</startDate>
+      <endDate>2003-10-31</endDate>
+    </period>
+  </context>
+  <context id='y2002'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <startDate>2001-11-01</startDate>
+      <endDate>2002-10-31</endDate>
+    </period>
+  </context>
+  <context id='s2002'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2001-10-31</instant>
+    </period>
+  </context>
+  <context id='e2002'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2002-10-31</instant>
+    </period>
+  </context>
+  <context id='s2003'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2002-10-31</instant>
+    </period>
+  </context>
+  <context id='e2003'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2003-10-31</instant>
+    </period>
+  </context>
+  <link:footnoteLink xlink:role='http://www.xbrl.org/2003/role/link' xlink:title='Fixed Assets' xlink:type='extended'>
+    <link:footnote xlink:label='footnote2' xlink:type='resource' xml:lang='en'>
+      This is a footnote for the fixed asset sections of the balance sheet.
+    </link:footnote>
+    <link:loc xlink:href='#s2-1' xlink:label='s2-1' xlink:title='section 2 locator' xlink:type='locator' />
+    <link:loc xlink:href='#s2-2' xlink:label='s2-2' xlink:title='section 2 locator' xlink:type='locator' />
+    <link:loc xlink:href='#s2-3' xlink:label='s2-3' xlink:title='section 2 locator' xlink:type='locator' />
+    <link:loc xlink:href='#s2-4' xlink:label='s2-4' xlink:title='section 2 locator' xlink:type='locator' />
+    <link:footnoteArc use='optional' order='3' priority='5' xlink:actuate='onRequest' xlink:arcrole='http://www.xbrl.org/2003/arcrole/fact-footnote' xlink:from='s2-1' xlink:show='replace' xlink:title='section 2 footnote' xlink:to='footnote2' xlink:type='arc' />
+    <link:footnoteArc use='optional' order='3' priority='5' xlink:actuate='onRequest' xlink:arcrole='http://www.xbrl.org/2003/arcrole/fact-footnote' xlink:from='s2-2' xlink:show='replace' xlink:title='section 2 footnote' xlink:to='footnote2' xlink:type='arc' />
+    <link:footnoteArc use='optional' order='3' priority='5' xlink:actuate='onRequest' xlink:arcrole='http://www.xbrl.org/2003/arcrole/fact-footnote' xlink:from='s2-3' xlink:show='replace' xlink:title='section 2 footnote' xlink:to='footnote2' xlink:type='arc' />
+    <link:footnoteArc use='optional' order='3' priority='5' xlink:actuate='onRequest' xlink:arcrole='http://www.xbrl.org/2003/arcrole/fact-footnote' xlink:from='s2-4' xlink:show='replace' xlink:title='section 2 footnote' xlink:to='footnote2' xlink:type='arc' />
+  </link:footnoteLink>
+  <link:footnoteLink xlink:role='http://www.xbrl.org/2003/role/link' xlink:title='Debtors' xlink:type='extended'>
+    <link:footnote xlink:label='footnote3' xlink:type='resource' xml:lang='en'>
+      This is a footnote to the Debtors note.
+    </link:footnote>
+    <link:loc xlink:href='#s3-1' xlink:label='s3-1' xlink:title='section 3 locator' xlink:type='locator' />
+    <link:loc xlink:href='#s3-2' xlink:label='s3-2' xlink:title='section 3 locator' xlink:type='locator' />
+    <link:footnoteArc use='optional' order='3' priority='5' xlink:actuate='onRequest' xlink:arcrole='http://www.xbrl.org/2003/arcrole/fact-footnote' xlink:from='s3-1' xlink:show='replace' xlink:title='section 3 footnote' xlink:to='footnote3' xlink:type='arc' />
+    <link:footnoteArc use='optional' order='3' priority='5' xlink:actuate='onRequest' xlink:arcrole='http://www.xbrl.org/2003/arcrole/fact-footnote' xlink:from='s3-2' xlink:show='replace' xlink:title='section 3 footnote' xlink:to='footnote3' xlink:type='arc' />
+  </link:footnoteLink>
+  <link:footnoteLink xlink:role='http://www.xbrl.org/2003/role/link' xlink:title='Turnover note title' xlink:type='extended'>
+    <link:footnote xlink:label='footnote9' xlink:type='resource' xml:lang='en'>
+      This is a footnote to Turnover.
+    </link:footnote>
+    <link:loc xlink:href='#s9-1' xlink:label='s9-1' xlink:title='loc/@title' xlink:type='locator' />
+    <link:footnoteArc use='optional' order='3' priority='5' xlink:actuate='onRequest' xlink:arcrole='http://www.xbrl.org/2003/arcrole/fact-footnote' xlink:from='s9-1' xlink:show='replace' xlink:title='Turnover title' xlink:to='footnote9' xlink:type='arc' />
+  </link:footnoteLink>
+</xbrl>

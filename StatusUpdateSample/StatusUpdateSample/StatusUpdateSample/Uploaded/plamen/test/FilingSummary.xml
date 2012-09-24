@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FilingSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>2.4.0.6</Version>
+  <ProcessingTime />
+  <ReportFormat>Html</ReportFormat>
+  <ContextCount>3</ContextCount>
+  <ElementCount>12</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>false</FootnotesReported>
+  <SegmentCount>0</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>1</UnitCount>
+  <MyReports>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R1.htm</HtmlFileName>
+      <LongName>000 - Document - Main Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://edgar/role/OtherInformation</Role>
+      <ShortName>Main Information</ShortName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R2.htm</HtmlFileName>
+      <LongName>001 - Document - More Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://edgar/role/MoreInformation</Role>
+      <ShortName>More Information</ShortName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R3.htm</HtmlFileName>
+      <LongName>992 - Document - Document Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://edgar/role/DocumentInformation</Role>
+      <ShortName>Document Information</ShortName>
+    </Report>
+    <Report>
+      <IsDefault>true</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <Logs>
+    <Log type="Info">Element e_D had a mix of decimals attribute values: -8 -6 -5.</Log>
+    <Log type="Info">Element e_E had a mix of decimals attribute values: -6 0.</Log>
+    <Log type="Info">Element e_F had a mix of decimals attribute values: -6 -4.</Log>
+    <Log type="Info">'Monetary' elements on report '001 - Document - More Information' had a mix of different decimal attribute values.</Log>
+  </Logs>
+  <InputFiles>
+    <File>dropzero-20111231.xml</File>
+    <File>dropzero-20111231.xsd</File>
+    <File>dropzero-20111231_cal.xml</File>
+    <File>dropzero-20111231_def.xml</File>
+    <File>dropzero-20111231_lab.xml</File>
+    <File>dropzero-20111231_pre.xml</File>
+  </InputFiles>
+  <SupplementalFiles />
+  <BaseTaxonomies />
+  <HasPresentationLinkbase>true</HasPresentationLinkbase>
+  <HasCalculationLinkbase>true</HasCalculationLinkbase>
+</FilingSummary>

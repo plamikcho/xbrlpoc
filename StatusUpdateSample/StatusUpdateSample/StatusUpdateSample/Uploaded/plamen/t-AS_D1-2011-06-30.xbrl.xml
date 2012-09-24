@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2011 European Insurance and Occupational Pensions Authority -->
+<!-- Skeleton instance -->
+<xbrli:xbrl xmlns:d-sai="http://www.eiopa.europa.eu/pr/solvencyii/d-sai_AssetIdentification" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:d-soc="http://www.eiopa.europa.eu/pr/solvencyii/d-soc_SoloOrGroup" xmlns:p-AS_D1="http://www.eiopa.europa.eu/pr/solvencyii/AS_D1_InvestmentsDataPortfolioListTemplate" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:d-sty="http://www.eiopa.europa.eu/pr/solvencyii/dimension-types" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:schemaRef xlink:type="simple" xlink:href="t-AS_D1-2011-06-30.xsd"/>
+  <xbrli:context id="I_AssetIdentificationPTCGF11E0000_Group">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.eiopa.europa.eu/pr/solvencyii/undertaking">00000</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-06-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="d-sai:AssetIdentificationDimension">
+        <d-sty:AssetIdentificationDimensionElement>L____PTCGF11E0000__ISIN__</d-sty:AssetIdentificationDimensionElement>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="d-soc:SoloOrGroupDimension">d-soc:Group</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="I_AssetIdentificationAT0000385745_Solo">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.eiopa.europa.eu/pr/solvencyii/undertaking">00000</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-06-30</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:typedMember dimension="d-sai:AssetIdentificationDimension">
+        <d-sty:AssetIdentificationDimensionElement>L____AT0000385745__ISIN__</d-sty:AssetIdentificationDimensionElement>
+      </xbrldi:typedMember>
+      <xbrldi:explicitMember dimension="d-soc:SoloOrGroupDimension">d-soc:Solo</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:unit id="U-EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="U-PURE">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <p-AS_D1:A1 contextRef="I_AssetIdentificationPTCGF11E0000_Group">L</p-AS_D1:A1>
+  <p-AS_D1:A3 contextRef="I_AssetIdentificationPTCGF11E0000_Group">N</p-AS_D1:A3>
+  <p-AS_D1:A4 contextRef="I_AssetIdentificationPTCGF11E0000_Group">PTCGF11E0000</p-AS_D1:A4>
+  <p-AS_D1:A5 contextRef="I_AssetIdentificationPTCGF11E0000_Group">ISIN</p-AS_D1:A5>
+  <p-AS_D1:A7 contextRef="I_AssetIdentificationPTCGF11E0000_Group">CGD, 3.875%, 06/12/2016, CORP</p-AS_D1:A7>
+  <p-AS_D1:A8 contextRef="I_AssetIdentificationPTCGF11E0000_Group">CAIXA GERAL DE DEPOSITOS</p-AS_D1:A8>
+  <p-AS_D1:A9 contextRef="I_AssetIdentificationPTCGF11E0000_Group">Financial</p-AS_D1:A9>
+  <p-AS_D1:A10 contextRef="I_AssetIdentificationPTCGF11E0000_Group">153201</p-AS_D1:A10>
+  <p-AS_D1:A11 contextRef="I_AssetIdentificationPTCGF11E0000_Group">PT</p-AS_D1:A11>
+  <p-AS_D1:A13 contextRef="I_AssetIdentificationPTCGF11E0000_Group">EUR</p-AS_D1:A13>
+  <p-AS_D1:A15 contextRef="I_AssetIdentificationPTCGF11E0000_Group">PT21</p-AS_D1:A15>
+  <p-AS_D1:A17 contextRef="I_AssetIdentificationPTCGF11E0000_Group">AAA</p-AS_D1:A17>
+  <p-AS_D1:A18 contextRef="I_AssetIdentificationPTCGF11E0000_Group">S&amp;P</p-AS_D1:A18>
+  <p-AS_D1:A20 decimals="INF" contextRef="I_AssetIdentificationPTCGF11E0000_Group" unitRef="U-PURE">5.85</p-AS_D1:A20>
+  <p-AS_D1:A22 decimals="INF" contextRef="I_AssetIdentificationPTCGF11E0000_Group" unitRef="U-PURE">2000000</p-AS_D1:A22>
+  <p-AS_D1:A23 decimals="0" contextRef="I_AssetIdentificationPTCGF11E0000_Group" unitRef="U-EUR">100.25</p-AS_D1:A23>
+  <p-AS_D1:A24 contextRef="I_AssetIdentificationPTCGF11E0000_Group">MktMk</p-AS_D1:A24>
+  <p-AS_D1:A25 decimals="0" contextRef="I_AssetIdentificationPTCGF11E0000_Group" unitRef="U-EUR">95.24</p-AS_D1:A25>
+  <p-AS_D1:A26 decimals="0" contextRef="I_AssetIdentificationPTCGF11E0000_Group" unitRef="U-EUR">2010292.22</p-AS_D1:A26>
+  <p-AS_D1:A28 contextRef="I_AssetIdentificationPTCGF11E0000_Group">2016-12-06</p-AS_D1:A28>
+  <p-AS_D1:A30 decimals="0" contextRef="I_AssetIdentificationPTCGF11E0000_Group" unitRef="U-EUR">5308.22</p-AS_D1:A30>
+  <p-AS_D1:A1 contextRef="I_AssetIdentificationAT0000385745_Solo">L</p-AS_D1:A1>
+  <p-AS_D1:A3 contextRef="I_AssetIdentificationAT0000385745_Solo">N</p-AS_D1:A3>
+  <p-AS_D1:A4 contextRef="I_AssetIdentificationAT0000385745_Solo">AT0000385745</p-AS_D1:A4>
+  <p-AS_D1:A5 contextRef="I_AssetIdentificationAT0000385745_Solo">ISIN</p-AS_D1:A5>
+  <p-AS_D1:A7 contextRef="I_AssetIdentificationAT0000385745_Solo">RAGB, 4.65%, 15/01/2018, GOVT</p-AS_D1:A7>
+  <p-AS_D1:A8 contextRef="I_AssetIdentificationAT0000385745_Solo">REPUBLIC OF AUSTRIA</p-AS_D1:A8>
+  <p-AS_D1:A9 contextRef="I_AssetIdentificationAT0000385745_Solo">Government</p-AS_D1:A9>
+  <p-AS_D1:A10 contextRef="I_AssetIdentificationAT0000385745_Solo">191051</p-AS_D1:A10>
+  <p-AS_D1:A11 contextRef="I_AssetIdentificationAT0000385745_Solo">AT</p-AS_D1:A11>
+  <p-AS_D1:A13 contextRef="I_AssetIdentificationAT0000385745_Solo">EUR</p-AS_D1:A13>
+  <p-AS_D1:A15 contextRef="I_AssetIdentificationAT0000385745_Solo">AT11</p-AS_D1:A15>
+  <p-AS_D1:A17 contextRef="I_AssetIdentificationAT0000385745_Solo">AAA</p-AS_D1:A17>
+  <p-AS_D1:A18 contextRef="I_AssetIdentificationAT0000385745_Solo">S&amp;P</p-AS_D1:A18>
+  <p-AS_D1:A20 decimals="INF" contextRef="I_AssetIdentificationAT0000385745_Solo" unitRef="U-PURE">6.59</p-AS_D1:A20>
+  <p-AS_D1:A22 decimals="INF" contextRef="I_AssetIdentificationAT0000385745_Solo" unitRef="U-PURE">2000</p-AS_D1:A22>
+  <p-AS_D1:A23 decimals="0" contextRef="I_AssetIdentificationAT0000385745_Solo" unitRef="U-EUR">107.75</p-AS_D1:A23>
+  <p-AS_D1:A24 contextRef="I_AssetIdentificationAT0000385745_Solo">MktMk</p-AS_D1:A24>
+  <p-AS_D1:A25 decimals="0" contextRef="I_AssetIdentificationAT0000385745_Solo" unitRef="U-EUR">102.36</p-AS_D1:A25>
+  <p-AS_D1:A26 decimals="0" contextRef="I_AssetIdentificationAT0000385745_Solo" unitRef="U-EUR">2244.22</p-AS_D1:A26>
+  <p-AS_D1:A28 contextRef="I_AssetIdentificationAT0000385745_Solo">2018-01-15</p-AS_D1:A28>
+  <p-AS_D1:A30 decimals="0" contextRef="I_AssetIdentificationAT0000385745_Solo" unitRef="U-EUR">89.18</p-AS_D1:A30>
+</xbrli:xbrl>

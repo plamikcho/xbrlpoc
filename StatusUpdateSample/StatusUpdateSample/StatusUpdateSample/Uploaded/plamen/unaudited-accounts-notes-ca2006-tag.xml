@@ -1,0 +1,602 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="../stylesheet/CH-AE-stylesheet.xsl" ?>
+
+<xbrl xmlns='http://www.xbrl.org/2003/instance' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ae='http://www.companieshouse.gov.uk/ef/xbrl/uk/fr/gaap/ae/2009-06-21' xmlns:gc='http://www.xbrl.org/uk/fr/gcd/2004-12-01' xmlns:html='http://www.w3.org/1999/xhtml' xmlns:iso4217='http://www.xbrl.org/2003/iso4217' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:pt='http://www.xbrl.org/uk/fr/gaap/pt/2004-12-01' xmlns:xbrli='http://www.xbrl.org/2003/instance' xmlns:xlink='http://www.w3.org/1999/xlink'>
+  <link:schemaRef xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:href='http://www.companieshouse.gov.uk/ef/xbrl/uk/fr/gaap/ae/2009-06-21/uk-gaap-ae-2009-06-21.xsd' xlink:type='simple' />
+  <ae:CompanyNotDormant contextRef='y2009'>&lt;ae:CompanyNotDormant&gt;</ae:CompanyNotDormant>
+  <ae:CompaniesHouseDocumentAuthentication contextRef='y2009'>&lt;ae:CompaniesHouseDocumentAuthentication&gt;</ae:CompaniesHouseDocumentAuthentication>
+  <gc:EntityNames>
+    <gc:EntityCurrentLegalName contextRef='y2009'>&lt;gc:EntityCurrentLegalName&gt;</gc:EntityCurrentLegalName>
+  </gc:EntityNames>
+  <ae:RejectionReferenceCode contextRef='e2009'>&lt;ae:RejectionReferenceCode&gt;</ae:RejectionReferenceCode>
+  <ae:RegisteredOfficeAddress>
+    <ae:AddressCH>
+      <gc:AddressLine1 contextRef='y2009'>&lt;gc:AddressLine1&gt;</gc:AddressLine1>
+      <gc:CityOrTown contextRef='y2009'>&lt;gc:CityOrTown&gt;</gc:CityOrTown>
+      <gc:Postcode contextRef='y2009'>&lt;gc:Postcode&gt;</gc:Postcode>
+      <gc:Country contextRef='y2009'>&lt;gc:Country&gt;</gc:Country>
+    </ae:AddressCH>
+  </ae:RegisteredOfficeAddress>
+  <ae:BusinessAddress>
+    <ae:DescriptionBusinessAddress contextRef='y2009'>&lt;ae:DescriptionBusinessAddress&gt;</ae:DescriptionBusinessAddress>
+    <ae:AddressCH>
+      <gc:AddressLine1 contextRef='y2009'>&lt;gc:AddressLine1&gt;</gc:AddressLine1>
+      <gc:CityOrTown contextRef='y2009'>&lt;gc:CityOrTown&gt;</gc:CityOrTown>
+      <gc:Postcode contextRef='y2009'>&lt;gc:Postcode&gt;</gc:Postcode>
+      <gc:Country contextRef='y2009'>&lt;gc:Country&gt;</gc:Country>
+    </ae:AddressCH>
+  </ae:BusinessAddress>
+  <ae:ListDirectorsExecutives>
+    <pt:DirectorOrExecutivesName contextRef='y2009'>&lt;pt:DirectorOrExecutivesName&gt;</pt:DirectorOrExecutivesName>
+  </ae:ListDirectorsExecutives>
+  <ae:ListDirectorsExecutives>
+    <pt:DirectorOrExecutivesName contextRef='y2009'>&lt;pt:DirectorOrExecutivesName&gt;</pt:DirectorOrExecutivesName>
+    <ae:DateResignation contextRef='e2009'>&lt;ae:DateResignation&gt;</ae:DateResignation>
+  </ae:ListDirectorsExecutives>
+  <ae:ListDirectorsExecutives>
+    <pt:DirectorOrExecutivesName contextRef='y2009'>&lt;pt:DirectorOrExecutivesName&gt;</pt:DirectorOrExecutivesName>
+    <pt:DateAssumedPosition contextRef='e2009'>&lt;pt:DateAssumedPosition&gt;</pt:DateAssumedPosition>
+  </ae:ListDirectorsExecutives>
+  <ae:CompanySecretarysName contextRef='y2009'>&lt;ae:CompanySecretarysName&gt;</ae:CompanySecretarysName>
+  <ae:ReportingAccountants>
+    <ae:NameAccountants contextRef='y2009'>&lt;ae:NameAccountants&gt;</ae:NameAccountants>
+    <ae:DescriptionAccountants contextRef='y2009'>&lt;ae:DescriptionAccountants&gt;</ae:DescriptionAccountants>
+    <ae:AddressCH>
+      <gc:AddressLine1 contextRef='y2009'>&lt;gc:AddressLine1&gt;</gc:AddressLine1>
+      <gc:CityOrTown contextRef='y2009'>&lt;gc:CityOrTown&gt;</gc:CityOrTown>
+      <gc:Postcode contextRef='y2009'>&lt;gc:Postcode&gt;</gc:Postcode>
+    </ae:AddressCH>
+  </ae:ReportingAccountants>
+  <ae:Bankers>
+    <ae:NameBankers contextRef='y2009'>&lt;ae:NameBankers&gt;</ae:NameBankers>
+    <ae:AddressCH>
+      <gc:AddressLine1 contextRef='y2009'>&lt;gc:AddressLine1&gt;</gc:AddressLine1>
+      <gc:CityOrTown contextRef='y2009'>&lt;gc:CityOrTown&gt;</gc:CityOrTown>
+      <gc:Postcode contextRef='y2009'>&lt;gc:Postcode&gt;</gc:Postcode>
+    </ae:AddressCH>
+  </ae:Bankers>
+  <ae:Solicitors>
+    <ae:NameSolicitors contextRef='y2009'>&lt;ae:NameSolicitors&gt;</ae:NameSolicitors>
+    <ae:AddressCH>
+      <gc:AddressLine1 contextRef='y2009'>&lt;gc:AddressLine1&gt;</gc:AddressLine1>
+      <gc:CityOrTown contextRef='y2009'>&lt;gc:CityOrTown&gt;</gc:CityOrTown>
+      <gc:Postcode contextRef='y2009'>&lt;gc:Postcode&gt;</gc:Postcode>
+    </ae:AddressCH>
+  </ae:Solicitors>
+  <ae:CompanyIdentifyingNumbers>
+    <ae:CompaniesHouseRegisteredNumber contextRef='y2009'>&lt;ae:CompaniesHouseRegisteredNumber&gt;</ae:CompaniesHouseRegisteredNumber>
+    <ae:VATRegistrationNumber contextRef='y2009'>&lt;ae:VATRegistrationNumber&gt;</ae:VATRegistrationNumber>
+  </ae:CompanyIdentifyingNumbers>
+  <ae:DateAccountsReceived contextRef='e2009'>&lt;ae:DateAccountsReceived&gt;</ae:DateAccountsReceived>
+  <gc:StatementDatesPeriodsCovered>
+    <gc:BalanceSheetDate contextRef='e2009'>&lt;gc:BalanceSheetDate&gt;</gc:BalanceSheetDate>
+  </gc:StatementDatesPeriodsCovered>
+  <ae:DirectorsReportGeneralText contextRef='y2009'>&lt;ae:DirectorsReportGeneralText&gt;</ae:DirectorsReportGeneralText>
+  <gc:EntityBusinessDescription contextRef='y2009'>&lt;gc:EntityBusinessDescription&gt;</gc:EntityBusinessDescription>
+  <ae:DirectorShareholding>
+    <pt:DirectorOrExecutivesName contextRef='y2009'>&lt;pt:DirectorOrExecutivesName&gt;</pt:DirectorOrExecutivesName>
+    <ae:Shareholding>
+      <pt:DescriptionSharesOrDebentures contextRef='y2009'>&lt;pt:DescriptionSharesOrDebentures&gt;</pt:DescriptionSharesOrDebentures>
+      <pt:SharesDirectorOrExecutive precision='INF' contextRef='e2009' unitRef='shares'>&lt;pt:SharesDirectorOrExecutive&gt;</pt:SharesDirectorOrExecutive>
+    </ae:Shareholding>
+    <ae:Shareholding>
+      <pt:DescriptionSharesOrDebentures contextRef='y2009'>&lt;pt:DescriptionSharesOrDebentures&gt;</pt:DescriptionSharesOrDebentures>
+      <pt:SharesDirectorOrExecutive precision='INF' contextRef='e2009' unitRef='shares'>&lt;pt:SharesDirectorOrExecutive&gt;</pt:SharesDirectorOrExecutive>
+    </ae:Shareholding>
+    <ae:Shareholding>
+      <pt:DescriptionSharesOrDebentures contextRef='y2008'>&lt;pt:DescriptionSharesOrDebentures&gt;</pt:DescriptionSharesOrDebentures>
+      <pt:SharesDirectorOrExecutive precision='INF' contextRef='e2008' unitRef='shares'>&lt;pt:SharesDirectorOrExecutive&gt;</pt:SharesDirectorOrExecutive>
+    </ae:Shareholding>
+    <ae:Shareholding>
+      <pt:DescriptionSharesOrDebentures contextRef='y2008'>&lt;pt:DescriptionSharesOrDebentures&gt;</pt:DescriptionSharesOrDebentures>
+      <pt:SharesDirectorOrExecutive precision='INF' contextRef='e2008' unitRef='shares'>&lt;pt:SharesDirectorOrExecutive&gt;</pt:SharesDirectorOrExecutive>
+    </ae:Shareholding>
+  </ae:DirectorShareholding>
+  <ae:DirectorShareholding>
+    <pt:DirectorOrExecutivesName contextRef='y2009'>&lt;pt:DirectorOrExecutivesName&gt;</pt:DirectorOrExecutivesName>
+    <ae:Shareholding>
+      <pt:DescriptionSharesOrDebentures contextRef='y2009'>&lt;pt:DescriptionSharesOrDebentures&gt;</pt:DescriptionSharesOrDebentures>
+      <pt:SharesDirectorOrExecutive precision='INF' contextRef='e2008' unitRef='shares'>&lt;pt:SharesDirectorOrExecutive&gt;</pt:SharesDirectorOrExecutive>
+    </ae:Shareholding>
+  </ae:DirectorShareholding>
+  <ae:DirectorShareholding>
+    <pt:DirectorOrExecutivesName contextRef='y2009'>&lt;pt:DirectorOrExecutivesName&gt;</pt:DirectorOrExecutivesName>
+    <ae:Shareholding>
+      <pt:DescriptionSharesOrDebentures contextRef='y2009'>&lt;pt:DescriptionSharesOrDebentures&gt;</pt:DescriptionSharesOrDebentures>
+      <pt:SharesDirectorOrExecutive precision='INF' contextRef='e2009' unitRef='shares'>&lt;pt:SharesDirectorOrExecutive&gt;</pt:SharesDirectorOrExecutive>
+    </ae:Shareholding>
+  </ae:DirectorShareholding>
+  <ae:DateApprovalDirectorsReport contextRef='e2009'>&lt;ae:DateApprovalDirectorsReport&gt;</ae:DateApprovalDirectorsReport>
+  <ae:ApprovalDirectorsReport>
+    <ae:NamePersonApprovingDirectorsReport contextRef='y2009'>&lt;ae:NamePersonApprovingDirectorsReport&gt;</ae:NamePersonApprovingDirectorsReport>
+    <ae:PositionPersonApprovingDirectorsReport contextRef='y2009'>&lt;ae:PositionPersonApprovingDirectorsReport&gt;</ae:PositionPersonApprovingDirectorsReport>
+  </ae:ApprovalDirectorsReport>
+  <ae:ApprovalDirectorsReport>
+    <ae:NamePersonApprovingDirectorsReport contextRef='y2009'>&lt;ae:NamePersonApprovingDirectorsReport&gt;</ae:NamePersonApprovingDirectorsReport>
+    <ae:PositionPersonApprovingDirectorsReport contextRef='y2009'>&lt;ae:PositionPersonApprovingDirectorsReport&gt;</ae:PositionPersonApprovingDirectorsReport>
+  </ae:ApprovalDirectorsReport>
+  <ae:DirectorsShareCapitalFreeTextNote contextRef='y2009'>&lt;ae:DirectorsShareCapitalFreeTextNote&gt;</ae:DirectorsShareCapitalFreeTextNote>
+  <ae:DirectorsReportFreeTextNote contextRef='y2009'>&lt;ae:DirectorsReportFreeTextNote&gt;</ae:DirectorsReportFreeTextNote>
+  <ae:PoliticalCharitableDonationsText contextRef='y2009'>&lt;ae:PoliticalCharitableDonationsText&gt;</ae:PoliticalCharitableDonationsText>
+  <ae:CompanyEntitledToExemptionUnderSection477CompaniesAct2006 contextRef='y2009'>&lt;ae:CompanyEntitledToExemptionUnderSection477CompaniesAct2006&gt;</ae:CompanyEntitledToExemptionUnderSection477CompaniesAct2006>
+  <ae:MembersHaveNotRequiredCompanyToObtainAnAudit contextRef='y2009'>&lt;ae:MembersHaveNotRequiredCompanyToObtainAnAudit&gt;</ae:MembersHaveNotRequiredCompanyToObtainAnAudit>
+  <ae:DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct contextRef='y2009'>&lt;ae:DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct&gt;</ae:DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct>
+
+  <ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies contextRef='y2009'>&lt;ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies&gt;</ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies>
+  <ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies-DirectorsReport contextRef='y2009'>&lt;ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies-DirectorsReport&gt;</ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies-DirectorsReport>
+
+  <pt:DateApproval contextRef='e2009'>&lt;pt:DateApproval&gt;</pt:DateApproval>
+  <pt:ApprovalDetails>
+    <pt:NameApprovingDirector contextRef='y2009'>&lt;pt:NameApprovingDirector&gt;</pt:NameApprovingDirector>
+  </pt:ApprovalDetails>
+  <pt:AdditionalApprovingPerson>
+    <pt:NameAdditionalApprovingPerson contextRef='y2009'>&lt;pt:NameAdditionalApprovingPerson&gt;</pt:NameAdditionalApprovingPerson>
+    <pt:PositionAdditionalApprovingPerson contextRef='y2009'>&lt;pt:PositionAdditionalApprovingPerson&gt;</pt:PositionAdditionalApprovingPerson>
+  </pt:AdditionalApprovingPerson>
+  <pt:AdditionalApprovingPerson>
+    <pt:NameAdditionalApprovingPerson contextRef='y2009'>&lt;pt:NameAdditionalApprovingPerson&gt;</pt:NameAdditionalApprovingPerson>
+    <pt:PositionAdditionalApprovingPerson contextRef='y2009'>&lt;pt:PositionAdditionalApprovingPerson&gt;</pt:PositionAdditionalApprovingPerson>
+  </pt:AdditionalApprovingPerson>
+  <ae:AccountingPolicySubTitle contextRef="y2009">&lt;ae:AccountingPolicySubTitle&gt;</ae:AccountingPolicySubTitle>
+  <ae:AccountsPreparedUnderHistoricalCostConventionInAccordanceWithFRSSE05 contextRef='y2009'>&lt;ae:AccountsPreparedUnderHistoricalCostConventionInAccordanceWithFRSSE05&gt;</ae:AccountsPreparedUnderHistoricalCostConventionInAccordanceWithFRSSE05>
+  <ae:FRSSEVersionDate contextRef='y2009'>&lt;ae:FRSSEVersionDate&gt;</ae:FRSSEVersionDate>
+  <ae:ForeignExchangeRate contextRef='y2009'>&lt;ae:ForeignExchangeRate&gt;</ae:ForeignExchangeRate>
+  <ae:AccountingPolicy>
+    <ae:TitleAccountingPolicy contextRef='y2009'>&lt;ae:TitleAccountingPolicy&gt;</ae:TitleAccountingPolicy>
+    <ae:ContentAccountingPolicy contextRef='y2009'>&lt;ae:ContentAccountingPolicy&gt;</ae:ContentAccountingPolicy>
+  </ae:AccountingPolicy>
+  <ae:AccountingPolicy>
+    <ae:TitleAccountingPolicy contextRef='y2009'>&lt;ae:TitleAccountingPolicy&gt;</ae:TitleAccountingPolicy>
+    <ae:ContentAccountingPolicy contextRef='y2009'>&lt;ae:ContentAccountingPolicy&gt;</ae:ContentAccountingPolicy>
+  </ae:AccountingPolicy>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2009'>&lt;ae:CategoryItem&gt;</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2009'>&lt;ae:TypeDepreciation&gt;</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2009' unitRef='pure'>&lt;ae:RateDepreciation&gt;</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2009'>&lt;ae:CategoryItem&gt;</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2009'>&lt;ae:TypeDepreciation&gt;</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2009' unitRef='pure'>&lt;ae:RateDepreciation&gt;</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2009'>&lt;ae:CategoryItem&gt;</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2009'>&lt;ae:TypeDepreciation&gt;</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2009' unitRef='pure'>&lt;ae:RateDepreciation&gt;</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2009'>&lt;ae:CategoryItem&gt;</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2009'>&lt;ae:TypeDepreciation&gt;</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2009' unitRef='pure'>&lt;ae:RateDepreciation&gt;</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2009'>&lt;ae:CategoryItem&gt;</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2009'>&lt;ae:TypeDepreciation&gt;</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2009' unitRef='pure'>&lt;ae:RateDepreciation&gt;</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ProfitLossAccountReserve&gt;</pt:ProfitLossAccountReserve>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ProfitLossAccountReserve&gt;</pt:ProfitLossAccountReserve>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='s2008' unitRef='GBP'>&lt;pt:ProfitLossAccountReserve&gt;</pt:ProfitLossAccountReserve>
+  <pt:OtherAggregateReserves precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:OtherAggregateReserves&gt;</pt:OtherAggregateReserves>
+  <pt:OtherAggregateReserves precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:OtherAggregateReserves&gt;</pt:OtherAggregateReserves>
+  <pt:RetainedProfitLossForFinancialYearTransferredToReserves precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:RetainedProfitLossForFinancialYearTransferredToReserves&gt;</pt:RetainedProfitLossForFinancialYearTransferredToReserves>
+  <pt:RetainedProfitLossForFinancialYearTransferredToReserves precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:RetainedProfitLossForFinancialYearTransferredToReserves&gt;</pt:RetainedProfitLossForFinancialYearTransferredToReserves>
+  <pt:GrossDividendPayment-AllShares precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:GrossDividendPayment-AllShares&gt;</pt:GrossDividendPayment-AllShares>
+  <pt:GrossDividendPayment-AllShares precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:GrossDividendPayment-AllShares&gt;</pt:GrossDividendPayment-AllShares>
+  <pt:ProfitLossOnOrdinaryActivitiesAfterTax precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ProfitLossOnOrdinaryActivitiesAfterTax&gt;</pt:ProfitLossOnOrdinaryActivitiesAfterTax>
+  <pt:ProfitLossOnOrdinaryActivitiesAfterTax precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:ProfitLossOnOrdinaryActivitiesAfterTax&gt;</pt:ProfitLossOnOrdinaryActivitiesAfterTax>
+  <pt:TaxRelatedToProfitOrLossOnOrdinaryActivities precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TaxRelatedToProfitOrLossOnOrdinaryActivities&gt;</pt:TaxRelatedToProfitOrLossOnOrdinaryActivities>
+  <pt:TaxRelatedToProfitOrLossOnOrdinaryActivities precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:TaxRelatedToProfitOrLossOnOrdinaryActivities&gt;</pt:TaxRelatedToProfitOrLossOnOrdinaryActivities>
+  <pt:ProfitLossOnOrdinaryActivitiesBeforeTax precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ProfitLossOnOrdinaryActivitiesBeforeTax&gt;</pt:ProfitLossOnOrdinaryActivitiesBeforeTax>
+  <pt:ProfitLossOnOrdinaryActivitiesBeforeTax precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:ProfitLossOnOrdinaryActivitiesBeforeTax&gt;</pt:ProfitLossOnOrdinaryActivitiesBeforeTax>
+  <pt:TotalOperatingProfitLoss precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TotalOperatingProfitLoss&gt;</pt:TotalOperatingProfitLoss>
+  <pt:TotalOperatingProfitLoss precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:TotalOperatingProfitLoss&gt;</pt:TotalOperatingProfitLoss>
+  <pt:AdministrativeExpenses precision='INF' id='s2-1' contextRef='y2009' unitRef='GBP'>&lt;pt:AdministrativeExpenses&gt;</pt:AdministrativeExpenses>
+  <pt:AdministrativeExpenses precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:AdministrativeExpenses&gt;</pt:AdministrativeExpenses>
+  <pt:DistributionCosts precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:DistributionCosts&gt;</pt:DistributionCosts>
+  <pt:DistributionCosts precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:DistributionCosts&gt;</pt:DistributionCosts>
+  <pt:GrossProfitLoss precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:GrossProfitLoss&gt;</pt:GrossProfitLoss>
+  <pt:GrossProfitLoss precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:GrossProfitLoss&gt;</pt:GrossProfitLoss>
+  <pt:CostSales precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:CostSales&gt;</pt:CostSales>
+  <pt:CostSales precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:CostSales&gt;</pt:CostSales>
+  <pt:TurnoverGrossOperatingRevenue precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TurnoverGrossOperatingRevenue&gt;</pt:TurnoverGrossOperatingRevenue>
+  <pt:TurnoverGrossOperatingRevenue precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:TurnoverGrossOperatingRevenue&gt;</pt:TurnoverGrossOperatingRevenue>
+  <pt:TotalInterestPayableReceivableNet precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TotalInterestPayableReceivableNet&gt;</pt:TotalInterestPayableReceivableNet>
+  <pt:TotalInterestPayableReceivableNet precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:TotalInterestPayableReceivableNet&gt;</pt:TotalInterestPayableReceivableNet>
+  <pt:ShareholderFunds precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ShareholderFunds&gt;</pt:ShareholderFunds>
+  <pt:ShareholderFunds precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ShareholderFunds&gt;</pt:ShareholderFunds>
+  <pt:CalledUpShareCapital precision='INF' id='s6-1' contextRef='e2009' unitRef='GBP'>&lt;pt:CalledUpShareCapital&gt;</pt:CalledUpShareCapital>
+  <pt:CalledUpShareCapital precision='INF' id='s6-2' contextRef='e2008' unitRef='GBP'>&lt;pt:CalledUpShareCapital&gt;</pt:CalledUpShareCapital>
+  <pt:SharePremiumAccount precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:SharePremiumAccount&gt;</pt:SharePremiumAccount>
+  <pt:SharePremiumAccount precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:SharePremiumAccount&gt;</pt:SharePremiumAccount>
+  <pt:RevaluationReserve precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:RevaluationReserve&gt;</pt:RevaluationReserve>
+  <pt:RevaluationReserve precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:RevaluationReserve&gt;</pt:RevaluationReserve>
+  <pt:NetAssetsLiabilitiesIncludingPensionAssetLiability precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:NetAssetsLiabilitiesIncludingPensionAssetLiability&gt;</pt:NetAssetsLiabilitiesIncludingPensionAssetLiability>
+  <pt:NetAssetsLiabilitiesIncludingPensionAssetLiability precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:NetAssetsLiabilitiesIncludingPensionAssetLiability&gt;</pt:NetAssetsLiabilitiesIncludingPensionAssetLiability>
+  <pt:ProvisionsForLiabilitiesCharges precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ProvisionsForLiabilitiesCharges&gt;</pt:ProvisionsForLiabilitiesCharges>
+  <pt:ProvisionsForLiabilitiesCharges precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ProvisionsForLiabilitiesCharges&gt;</pt:ProvisionsForLiabilitiesCharges>
+
+  <pt:AccrualsDeferredIncome precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:AccrualsDeferredIncome&gt;</pt:AccrualsDeferredIncome>
+  <pt:AccrualsDeferredIncome precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:AccrualsDeferredIncome&gt;</pt:AccrualsDeferredIncome>
+
+  <ae:CreditorsDueAfterOneYearFreeTextNote contextRef='e2009'>&lt;ae:CreditorsDueAfterOneYearFreeTextNote&gt;</ae:CreditorsDueAfterOneYearFreeTextNote>
+  <ae:CreditorsDueWithinOneYearFreeTextNote contextRef='e2009'>&lt;ae:CreditorsDueWithinOneYearFreeTextNote&gt;</ae:CreditorsDueWithinOneYearFreeTextNote>
+ 
+  <pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset&gt;</pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset>
+  <pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset&gt;</pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset>
+
+  <pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities precision='INF' id='s5-1' contextRef='e2009' unitRef='GBP'>&lt;pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities&gt;</pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities>
+  <pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities precision='INF' id='s5-2' contextRef='e2008' unitRef='GBP'>&lt;pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities&gt;</pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities>
+  <pt:TotalAssetsLessCurrentLiabilities precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:TotalAssetsLessCurrentLiabilities&gt;</pt:TotalAssetsLessCurrentLiabilities>
+  <pt:TotalAssetsLessCurrentLiabilities precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:TotalAssetsLessCurrentLiabilities&gt;</pt:TotalAssetsLessCurrentLiabilities>
+  <pt:NetCurrentAssetsLiabilities precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:NetCurrentAssetsLiabilities&gt;</pt:NetCurrentAssetsLiabilities>
+  <pt:NetCurrentAssetsLiabilities precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:NetCurrentAssetsLiabilities&gt;</pt:NetCurrentAssetsLiabilities>
+  <pt:CurrentAssets precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:CurrentAssets&gt;</pt:CurrentAssets>
+  <pt:CurrentAssets precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:CurrentAssets&gt;</pt:CurrentAssets>
+  <pt:StocksInventory precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:StocksInventory&gt;</pt:StocksInventory>
+  <pt:StocksInventory precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:StocksInventory&gt;</pt:StocksInventory>
+
+  <pt:CashBankInHand precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:CashBankInHand&gt;</pt:CashBankInHand>
+  <pt:CashBankInHand precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:CashBankInHand&gt;</pt:CashBankInHand>
+  <pt:TotalInvestmentsFixedAssets precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:TotalInvestmentsFixedAssets&gt;</pt:TotalInvestmentsFixedAssets>
+  <pt:TotalInvestmentsFixedAssets precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:TotalInvestmentsFixedAssets&gt;</pt:TotalInvestmentsFixedAssets>
+  <pt:InvestmentProperties precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:InvestmentProperties&gt;</pt:InvestmentProperties>
+  <pt:InvestmentProperties precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:InvestmentProperties&gt;</pt:InvestmentProperties>
+  <pt:FixedAssets precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:FixedAssets&gt;</pt:FixedAssets>
+  <pt:FixedAssets precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:FixedAssets&gt;</pt:FixedAssets>
+  <pt:TangibleFixedAssets precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:TangibleFixedAssets&gt;</pt:TangibleFixedAssets>
+  <pt:TangibleFixedAssets precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:TangibleFixedAssets&gt;</pt:TangibleFixedAssets>
+  <pt:IntangibleFixedAssets precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:IntangibleFixedAssets&gt;</pt:IntangibleFixedAssets>
+  <pt:IntangibleFixedAssets precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:IntangibleFixedAssets&gt;</pt:IntangibleFixedAssets>
+  <ae:IntangibleAssetsFreeTextNote contextRef='e2009'>&lt;ae:IntangibleAssetsFreeTextNote&gt;</ae:IntangibleAssetsFreeTextNote>
+  <ae:TangibleAssetsFreeTextNote contextRef='e2009'>&lt;ae:TangibleAssetsFreeTextNote&gt;</ae:TangibleAssetsFreeTextNote>
+  <pt:DepreciationAmountsWrittenOffFixedAssets precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:DepreciationAmountsWrittenOffFixedAssets&gt;</pt:DepreciationAmountsWrittenOffFixedAssets>
+  <pt:DepreciationAmountsWrittenOffFixedAssets precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:DepreciationAmountsWrittenOffFixedAssets&gt;</pt:DepreciationAmountsWrittenOffFixedAssets>
+  <pt:OperatingLeaseExpenditure precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:OperatingLeaseExpenditure&gt;</pt:OperatingLeaseExpenditure>
+  <pt:OperatingLeaseExpenditure precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:OperatingLeaseExpenditure&gt;</pt:OperatingLeaseExpenditure>
+  <pt:TotalFeesToAuditors precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TotalFeesToAuditors&gt;</pt:TotalFeesToAuditors>
+  <pt:TotalFeesToAuditors precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:TotalFeesToAuditors&gt;</pt:TotalFeesToAuditors>
+
+  <ae:ChargesBeforeOperatingProfit precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:ChargesBeforeOperatingProfit&gt;</ae:ChargesBeforeOperatingProfit>
+  <ae:ChargesBeforeOperatingProfit precision='INF' contextRef='y2008' unitRef='GBP'>&lt;ae:ChargesBeforeOperatingProfit&gt;</ae:ChargesBeforeOperatingProfit>
+  <pt:TotalDeferredTax precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TotalDeferredTax&gt;</pt:TotalDeferredTax>
+  <pt:TotalDeferredTax precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:TotalDeferredTax&gt;</pt:TotalDeferredTax>
+  <pt:TotalUKCurrentCorporationTax precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TotalUKCurrentCorporationTax&gt;</pt:TotalUKCurrentCorporationTax>
+  <pt:TotalUKCurrentCorporationTax precision='INF' contextRef='y2008' unitRef='GBP'>&lt;pt:TotalUKCurrentCorporationTax&gt;</pt:TotalUKCurrentCorporationTax>
+
+  <ae:InvestmentsFixedAssetsFreeTextNote contextRef='e2009'>&lt;ae:InvestmentsFixedAssetsFreeTextNote&gt;</ae:InvestmentsFixedAssetsFreeTextNote>
+  <ae:InvestmentPropertyFreeTextNote contextRef='e2009'>&lt;ae:InvestmentPropertyFreeTextNote&gt;</ae:InvestmentPropertyFreeTextNote>
+<!-- Tangible Fixed Assets -->
+<!-- Land/Buildings -->
+  <pt:LandBuildingsCostOrValuation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:LandBuildingsCostOrValuation&gt;</pt:LandBuildingsCostOrValuation>
+  <pt:LandBuildingsAdditions precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:LandBuildingsAdditions&gt;</pt:LandBuildingsAdditions>
+  <pt:LandBuildingsDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:LandBuildingsDisposals&gt;</pt:LandBuildingsDisposals>
+  <pt:LandBuildingsCostOrValuation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:LandBuildingsCostOrValuation&gt;</pt:LandBuildingsCostOrValuation>
+  <pt:LandBuildingsDepreciation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:LandBuildingsDepreciation&gt;</pt:LandBuildingsDepreciation>
+  <pt:LandBuildingsDepreciationChargeForPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:LandBuildingsDepreciationChargeForPeriod&gt;</pt:LandBuildingsDepreciationChargeForPeriod>
+  <pt:LandBuildingsDepreciationDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:LandBuildingsDepreciationDisposals&gt;</pt:LandBuildingsDepreciationDisposals>
+  <pt:LandBuildingsDepreciation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:LandBuildingsDepreciation&gt;</pt:LandBuildingsDepreciation>
+  <pt:LandBuildingsIncreaseDecreaseFromRevaluations precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:LandBuildingsIncreaseDecreaseFromRevaluations&gt;</pt:LandBuildingsIncreaseDecreaseFromRevaluations>
+  <pt:LandBuildingsIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:LandBuildingsIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:LandBuildingsIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:LandBuildingsDepreciationIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:LandBuildingsDepreciationIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:LandBuildingsDepreciationIncreaseDecreaseFromTransfersBetweenItems>
+  <ae:LandBuildingsDepreciationOtherAdjustments precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:LandBuildingsDepreciationOtherAdjustments&gt;</ae:LandBuildingsDepreciationOtherAdjustments>
+<!-- ~Land/Buildings -->
+<!-- Plant/Machinery -->
+  <pt:PlantMachineryCostOrValuation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:PlantMachineryCostOrValuation&gt;</pt:PlantMachineryCostOrValuation>
+  <pt:PlantMachineryAdditions precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:PlantMachineryAdditions&gt;</pt:PlantMachineryAdditions>
+  <pt:PlantMachineryDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:PlantMachineryDisposals&gt;</pt:PlantMachineryDisposals>
+  <pt:PlantMachineryCostOrValuation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:PlantMachineryCostOrValuation&gt;</pt:PlantMachineryCostOrValuation>
+  <pt:PlantMachineryDepreciation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:PlantMachineryDepreciation&gt;</pt:PlantMachineryDepreciation>
+  <pt:PlantMachineryDepreciationChargeForPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:PlantMachineryDepreciationChargeForPeriod&gt;</pt:PlantMachineryDepreciationChargeForPeriod>
+  <pt:PlantMachineryDepreciationDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:PlantMachineryDepreciationDisposals&gt;</pt:PlantMachineryDepreciationDisposals>
+  <pt:PlantMachineryDepreciation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:PlantMachineryDepreciation&gt;</pt:PlantMachineryDepreciation>
+  <pt:PlantMachineryIncreaseDecreaseFromRevaluations precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:PlantMachineryIncreaseDecreaseFromRevaluations&gt;</pt:PlantMachineryIncreaseDecreaseFromRevaluations>
+  <pt:PlantMachineryIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:PlantMachineryIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:PlantMachineryIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:PlantMachineryDepreciationIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:PlantMachineryDepreciationIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:PlantMachineryDepreciationIncreaseDecreaseFromTransfersBetweenItems>
+  <ae:PlantMachineryDepreciationOtherAdjustments precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:PlantMachineryDepreciationOtherAdjustments&gt;</ae:PlantMachineryDepreciationOtherAdjustments>
+<!-- ~Plant/Machinery -->
+<!-- Fixtures/fittings -->
+  <pt:FixturesFittingsToolsEquipmentCostOrValuation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentCostOrValuation&gt;</pt:FixturesFittingsToolsEquipmentCostOrValuation>
+  <pt:FixturesFittingsToolsEquipmentAdditions precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentAdditions&gt;</pt:FixturesFittingsToolsEquipmentAdditions>
+  <pt:FixturesFittingsToolsEquipmentDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentDisposals&gt;</pt:FixturesFittingsToolsEquipmentDisposals>
+  <pt:FixturesFittingsToolsEquipmentCostOrValuation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentCostOrValuation&gt;</pt:FixturesFittingsToolsEquipmentCostOrValuation>
+  <pt:FixturesFittingsToolsEquipmentDepreciation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentDepreciation&gt;</pt:FixturesFittingsToolsEquipmentDepreciation>
+  <pt:FixturesFittingsToolsEquipmentDepreciationChargeForPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentDepreciationChargeForPeriod&gt;</pt:FixturesFittingsToolsEquipmentDepreciationChargeForPeriod>
+  <pt:FixturesFittingsToolsEquipmentDepreciationDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentDepreciationDisposals&gt;</pt:FixturesFittingsToolsEquipmentDepreciationDisposals>
+  <pt:FixturesFittingsToolsEquipmentDepreciation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentDepreciation&gt;</pt:FixturesFittingsToolsEquipmentDepreciation>
+  <pt:FixturesFittingsToolsEquipmentIncreaseDecreaseFromRevaluations precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentIncreaseDecreaseFromRevaluations&gt;</pt:FixturesFittingsToolsEquipmentIncreaseDecreaseFromRevaluations>
+  <pt:FixturesFittingsToolsEquipmentIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:FixturesFittingsToolsEquipmentIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:FixturesFittingsToolsEquipmentDepreciationIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipmentDepreciationIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:FixturesFittingsToolsEquipmentDepreciationIncreaseDecreaseFromTransfersBetweenItems>
+  <ae:FixturesFittingsToolsEquipmentDepreciationOtherAdjustments precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:FixturesFittingsToolsEquipmentDepreciationOtherAdjustments&gt;</ae:FixturesFittingsToolsEquipmentDepreciationOtherAdjustments>
+<!-- ~Fixtures/fittings -->
+<!-- Totals -->
+  <pt:LandBuildings precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:LandBuildings&gt;</pt:LandBuildings>
+  <pt:LandBuildings precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:LandBuildings&gt;</pt:LandBuildings>
+  <pt:PlantMachinery precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:PlantMachinery&gt;</pt:PlantMachinery>
+  <pt:PlantMachinery precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:PlantMachinery&gt;</pt:PlantMachinery>
+  <pt:FixturesFittingsToolsEquipment precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipment&gt;</pt:FixturesFittingsToolsEquipment>
+  <pt:FixturesFittingsToolsEquipment precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:FixturesFittingsToolsEquipment&gt;</pt:FixturesFittingsToolsEquipment>
+<!-- ~Totals -->
+  <pt:TangibleFixedAssetsCostOrValuation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:TangibleFixedAssetsCostOrValuation&gt;</pt:TangibleFixedAssetsCostOrValuation>
+  <pt:TangibleFixedAssetsAdditions precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TangibleFixedAssetsAdditions&gt;</pt:TangibleFixedAssetsAdditions>
+  <pt:TangibleFixedAssetsDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TangibleFixedAssetsDisposals&gt;</pt:TangibleFixedAssetsDisposals>
+  <pt:TangibleFixedAssetsCostOrValuation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:TangibleFixedAssetsCostOrValuation&gt;</pt:TangibleFixedAssetsCostOrValuation>
+  <pt:TangibleFixedAssetsDepreciation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:TangibleFixedAssetsDepreciation&gt;</pt:TangibleFixedAssetsDepreciation>
+  <pt:TangibleFixedAssetsDepreciationChargeForPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TangibleFixedAssetsDepreciationChargeForPeriod&gt;</pt:TangibleFixedAssetsDepreciationChargeForPeriod>
+  <pt:TangibleFixedAssetsDepreciationDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TangibleFixedAssetsDepreciationDisposals&gt;</pt:TangibleFixedAssetsDepreciationDisposals>
+  <pt:TangibleFixedAssetsDepreciation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:TangibleFixedAssetsDepreciation&gt;</pt:TangibleFixedAssetsDepreciation>
+  <pt:TangibleFixedAssetsIncreaseDecreaseFromRevaluations precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TangibleFixedAssetsIncreaseDecreaseFromRevaluations&gt;</pt:TangibleFixedAssetsIncreaseDecreaseFromRevaluations>
+  <pt:TangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:TangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:TangibleFixedAssetsDepreciationIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TangibleFixedAssetsDepreciationIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:TangibleFixedAssetsDepreciationIncreaseDecreaseFromTransfersBetweenItems>
+  <ae:TangibleFixedAssetsDepreciationOtherAdjustments precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:TangibleFixedAssetsDepreciationOtherAdjustments&gt;</ae:TangibleFixedAssetsDepreciationOtherAdjustments>
+<!-- ~Tangible Fixed Assets -->
+<!-- Intangible Fixed Assets -->
+  <pt:IntangibleFixedAssetsCostOrValuation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:IntangibleFixedAssetsCostOrValuation&gt;</pt:IntangibleFixedAssetsCostOrValuation>
+  <pt:IntangibleFixedAssetsCostOrValuation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:IntangibleFixedAssetsCostOrValuation&gt;</pt:IntangibleFixedAssetsCostOrValuation>
+  <pt:IntangibleFixedAssetsAggregateAmortisationImpairment precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:IntangibleFixedAssetsAggregateAmortisationImpairment&gt;</pt:IntangibleFixedAssetsAggregateAmortisationImpairment>
+  <pt:IntangibleFixedAssetsAmortisationChargedInPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:IntangibleFixedAssetsAmortisationChargedInPeriod&gt;</pt:IntangibleFixedAssetsAmortisationChargedInPeriod>
+  <pt:IntangibleFixedAssetsAggregateAmortisationImpairment precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:IntangibleFixedAssetsAggregateAmortisationImpairment&gt;</pt:IntangibleFixedAssetsAggregateAmortisationImpairment>
+  <pt:IntangibleFixedAssetsAmortisationOnDisposals precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:IntangibleFixedAssetsAmortisationOnDisposals&gt;</pt:IntangibleFixedAssetsAmortisationOnDisposals>
+  <ae:IntangibleFixedAssetsRevaluation precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:IntangibleFixedAssetsRevaluation&gt;</ae:IntangibleFixedAssetsRevaluation>
+  <pt:IntangibleFixedAssetsAdditions precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:IntangibleFixedAssetsAdditions&gt;</pt:IntangibleFixedAssetsAdditions>
+  <pt:IntangibleFixedAssetsDisposals precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:IntangibleFixedAssetsDisposals&gt;</pt:IntangibleFixedAssetsDisposals>
+  <pt:IntangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:IntangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:IntangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:IntangibleFixedAssetsAmortisationIncreaseDecreaseFromTransfersBetweenItems  precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:IntangibleFixedAssetsAmortisationIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:IntangibleFixedAssetsAmortisationIncreaseDecreaseFromTransfersBetweenItems>
+  <ae:IntangibleFixedAssetsAmortisationOtherAdjustments precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:IntangibleFixedAssetsAmortisationOtherAdjustments&gt;</ae:IntangibleFixedAssetsAmortisationOtherAdjustments>
+<!-- ~Intangible Fixed Assets -->
+<!-- Fixed Asset Investments -->
+  <pt:TotalFixedAssetInvestmentsCostOrValuation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:TotalFixedAssetInvestmentsCostOrValuation&gt;</pt:TotalFixedAssetInvestmentsCostOrValuation>
+  <pt:TotalFixedAssetInvestmentsCostOrValuation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:TotalFixedAssetInvestmentsCostOrValuation&gt;</pt:TotalFixedAssetInvestmentsCostOrValuation>
+  <ae:InvestmentsFixedAssetsDepreciation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:InvestmentsFixedAssetsDepreciation&gt;</ae:InvestmentsFixedAssetsDepreciation>
+  <ae:InvestmentsFixedAssetsDepreciationChargedInPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:InvestmentsFixedAssetsDepreciationChargedInPeriod&gt;</ae:InvestmentsFixedAssetsDepreciationChargedInPeriod>
+  <ae:InvestmentsFixedAssetsDepreciation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:InvestmentsFixedAssetsDepreciation&gt;</ae:InvestmentsFixedAssetsDepreciation>
+  <ae:InvestmentsFixedAssetsDepreciationOnDisposals precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:InvestmentsFixedAssetsDepreciationOnDisposals&gt;</ae:InvestmentsFixedAssetsDepreciationOnDisposals>
+  <ae:InvestmentsFixedAssetsRevaluations precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:InvestmentsFixedAssetsRevaluations&gt;</ae:InvestmentsFixedAssetsRevaluations>
+  <pt:TotalFixedAssetInvestmentsAdditions precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:TotalFixedAssetInvestmentsAdditions&gt;</pt:TotalFixedAssetInvestmentsAdditions>
+  <pt:TotalFixedAssetInvestmentsDisposals precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:TotalFixedAssetInvestmentsDisposals&gt;</pt:TotalFixedAssetInvestmentsDisposals>
+  <ae:InvestmentsFixedAssetsIncreaseDecreaseFromTransfersBetweenItems precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:InvestmentsFixedAssetsIncreaseDecreaseFromTransfersBetweenItems&gt;</ae:InvestmentsFixedAssetsIncreaseDecreaseFromTransfersBetweenItems>
+  <ae:InvestmentsFixedAssetsDepreciationOnTransfers  precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:InvestmentsFixedAssetsDepreciationOnTransfers&gt;</ae:InvestmentsFixedAssetsDepreciationOnTransfers>
+  <ae:InvestmentsFixedAssetsDepreciationOtherAdjustments precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:InvestmentsFixedAssetsDepreciationOtherAdjustments&gt;</ae:InvestmentsFixedAssetsDepreciationOtherAdjustments>
+<!-- ~Fixed Asset Investments -->
+<!-- Investment Properties -->
+  <pt:InvestmentPropertiesCostOrValuation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:InvestmentPropertiesCostOrValuation&gt;</pt:InvestmentPropertiesCostOrValuation>
+  <pt:InvestmentPropertiesCostOrValuation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:InvestmentPropertiesCostOrValuation&gt;</pt:InvestmentPropertiesCostOrValuation>
+  <pt:InvestmentPropertiesDepreciation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:InvestmentPropertiesDepreciation&gt;</pt:InvestmentPropertiesDepreciation>
+  <pt:InvestmentPropertiesDepreciationChargeForPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:InvestmentPropertiesDepreciationChargeForPeriod&gt;</pt:InvestmentPropertiesDepreciationChargeForPeriod>
+  <pt:InvestmentPropertiesDepreciation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:InvestmentPropertiesDepreciation&gt;</pt:InvestmentPropertiesDepreciation>
+  <pt:InvestmentPropertiesDepreciationDisposals precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:InvestmentPropertiesDepreciationDisposals&gt;</pt:InvestmentPropertiesDepreciationDisposals>
+  <pt:InvestmentPropertiesIncreaseDecreaseFromRevaluations precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:InvestmentPropertiesIncreaseDecreaseFromRevaluations&gt;</pt:InvestmentPropertiesIncreaseDecreaseFromRevaluations>
+  <pt:InvestmentPropertiesAdditions precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:InvestmentPropertiesAdditions&gt;</pt:InvestmentPropertiesAdditions>
+  <pt:InvestmentPropertiesDisposals precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:InvestmentPropertiesDisposals&gt;</pt:InvestmentPropertiesDisposals>
+  <pt:InvestmentPropertiesIncreaseDecreaseFromTransfersBetweenItems precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:InvestmentPropertiesIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:InvestmentPropertiesIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:InvestmentPropertiesDepreciationIncreaseDecreaseFromTransfersBetweenItems  precision="INF" contextRef="y2009" unitRef="GBP">&lt;pt:InvestmentPropertiesDepreciationIncreaseDecreaseFromTransfersBetweenItems&gt;</pt:InvestmentPropertiesDepreciationIncreaseDecreaseFromTransfersBetweenItems>
+  <ae:InvestmentPropertyDepreciationOtherAdjustments precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:InvestmentPropertyDepreciationOtherAdjustments&gt;</ae:InvestmentPropertyDepreciationOtherAdjustments>
+<!-- ~Investment Properties -->
+<!-- Total Fixed Assets --> 
+  <ae:TotalFixedAssetsCostOrValuation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:TotalFixedAssetsCostOrValuation&gt;</ae:TotalFixedAssetsCostOrValuation>
+  <ae:TotalFixedAssetsCostOrValuation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:TotalFixedAssetsCostOrValuation&gt;</ae:TotalFixedAssetsCostOrValuation>
+  <ae:TotalFixedAssetsDepreciation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:TotalFixedAssetsDepreciation&gt;</ae:TotalFixedAssetsDepreciation>
+  <ae:TotalFixedAssetsDepreciationChargeInPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:TotalFixedAssetsDepreciationChargeInPeriod&gt;</ae:TotalFixedAssetsDepreciationChargeInPeriod>
+  <ae:TotalFixedAssetsDepreciation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:TotalFixedAssetsDepreciation&gt;</ae:TotalFixedAssetsDepreciation>
+  <ae:TotalFixedAssetsDepreciationDisposals precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:TotalFixedAssetsDepreciationDisposals&gt;</ae:TotalFixedAssetsDepreciationDisposals>
+  <ae:TotalFixedAssetsRevaluation precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:TotalFixedAssetsRevaluation&gt;</ae:TotalFixedAssetsRevaluation>
+  <ae:TotalFixedAssetsAdditions precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:TotalFixedAssetsAdditions&gt;</ae:TotalFixedAssetsAdditions>
+  <ae:TotalFixedAssetsDisposals precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:TotalFixedAssetsDisposals&gt;</ae:TotalFixedAssetsDisposals>
+  <ae:TotalFixedAssetsIncreaseDecreaseFromTransfersBetweenItems precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:TotalFixedAssetsIncreaseDecreaseFromTransfersBetweenItems&gt;</ae:TotalFixedAssetsIncreaseDecreaseFromTransfersBetweenItems>
+  <ae:TotalFixedAssetsDepreciationOnTransfers  precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:TotalFixedAssetsDepreciationOnTransfers&gt;</ae:TotalFixedAssetsDepreciationOnTransfers>
+  <ae:TotalFixedAssetsDepreciationOtherAdjustments precision="INF" contextRef="y2009" unitRef="GBP">&lt;ae:TotalFixedAssetsDepreciationOtherAdjustments&gt;</ae:TotalFixedAssetsDepreciationOtherAdjustments>
+  <ae:TotalFixedAssetsFreeTextNote contextRef='e2009'>&lt;ae:TotalFixedAssetsFreeTextNote&gt;</ae:TotalFixedAssetsFreeTextNote>
+<!-- ~Total Fixed Assets -->
+<!-- Debtors -->
+  <pt:TradeDebtors precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:TradeDebtors&gt;</pt:TradeDebtors>
+  <pt:TradeDebtors precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:TradeDebtors&gt;</pt:TradeDebtors>
+  <pt:OtherDebtors precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:OtherDebtors&gt;</pt:OtherDebtors>
+  <pt:OtherDebtors precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:OtherDebtors&gt;</pt:OtherDebtors>
+  <pt:PrepaymentsAccruedIncomeCurrentAsset precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:PrepaymentsAccruedIncomeCurrentAsset&gt;</pt:PrepaymentsAccruedIncomeCurrentAsset>
+  <pt:PrepaymentsAccruedIncomeCurrentAsset precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:PrepaymentsAccruedIncomeCurrentAsset&gt;</pt:PrepaymentsAccruedIncomeCurrentAsset>
+  <pt:PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSub-total precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSub-total&gt;</pt:PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSub-total>
+  <pt:PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSub-total precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSub-total&gt;</pt:PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSub-total>
+  <pt:CalledUpShareCapitalNotPaidCurrentAsset precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:CalledUpShareCapitalNotPaidCurrentAsset&gt;</pt:CalledUpShareCapitalNotPaidCurrentAsset>
+  <pt:CalledUpShareCapitalNotPaidCurrentAsset precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:CalledUpShareCapitalNotPaidCurrentAsset&gt;</pt:CalledUpShareCapitalNotPaidCurrentAsset>
+  <pt:Debtors precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:Debtors&gt;</pt:Debtors>
+  <pt:Debtors precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:Debtors&gt;</pt:Debtors>
+  <pt:InvestmentsCurrentAssets precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:InvestmentsCurrentAssets&gt;</pt:InvestmentsCurrentAssets>
+  <pt:InvestmentsCurrentAssets precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:InvestmentsCurrentAssets&gt;</pt:InvestmentsCurrentAssets>
+  <ae:DebtorsFreeTextNote contextRef='e2009'>&lt;ae:DebtorsFreeTextNote&gt;</ae:DebtorsFreeTextNote>
+<!-- ~Debtors -->
+
+<!-- Total creditors -->
+  <ae:InstalmentDebtsFallingDueAfter5Years precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:InstalmentDebtsFallingDueAfter5Years&gt;</ae:InstalmentDebtsFallingDueAfter5Years>
+  <ae:InstalmentDebtsFallingDueAfter5Years precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:InstalmentDebtsFallingDueAfter5Years&gt;</ae:InstalmentDebtsFallingDueAfter5Years>
+  <ae:Non-InstalmentDebtsFallingDueAfter5Years precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:Non-InstalmentDebtsFallingDueAfter5Years&gt;</ae:Non-InstalmentDebtsFallingDueAfter5Years>
+  <ae:Non-InstalmentDebtsFallingDueAfter5Years precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:Non-InstalmentDebtsFallingDueAfter5Years&gt;</ae:Non-InstalmentDebtsFallingDueAfter5Years>
+  <ae:SecuredDebts precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:SecuredDebts&gt;</ae:SecuredDebts>
+  <ae:SecuredDebts precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:SecuredDebts&gt;</ae:SecuredDebts>
+<!-- ~Total creditors -->
+
+<!-- Creditors: amounts falling due within one year -->
+  <pt:BankLoansOverdraftsWithinOneYear precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:BankLoansOverdraftsWithinOneYear&gt;</pt:BankLoansOverdraftsWithinOneYear>
+  <pt:BankLoansOverdraftsWithinOneYear precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:BankLoansOverdraftsWithinOneYear&gt;</pt:BankLoansOverdraftsWithinOneYear>
+  <pt:TradeCreditorsWithinOneYear precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:TradeCreditorsWithinOneYear&gt;</pt:TradeCreditorsWithinOneYear>
+  <pt:TradeCreditorsWithinOneYear precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:TradeCreditorsWithinOneYear&gt;</pt:TradeCreditorsWithinOneYear>
+  <pt:AccrualsDeferredIncomeWithinOneYear precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:AccrualsDeferredIncomeWithinOneYear&gt;</pt:AccrualsDeferredIncomeWithinOneYear>
+  <pt:AccrualsDeferredIncomeWithinOneYear precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:AccrualsDeferredIncomeWithinOneYear&gt;</pt:AccrualsDeferredIncomeWithinOneYear>
+  <pt:OtherCreditorsDueWithinOneYear precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:OtherCreditorsDueWithinOneYear&gt;</pt:OtherCreditorsDueWithinOneYear>
+  <pt:OtherCreditorsDueWithinOneYear precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:OtherCreditorsDueWithinOneYear&gt;</pt:OtherCreditorsDueWithinOneYear>
+  <pt:CreditorsDueWithinOneYearTotalCurrentLiabilities precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:CreditorsDueWithinOneYearTotalCurrentLiabilities&gt;</pt:CreditorsDueWithinOneYearTotalCurrentLiabilities>
+  <pt:CreditorsDueWithinOneYearTotalCurrentLiabilities precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:CreditorsDueWithinOneYearTotalCurrentLiabilities&gt;</pt:CreditorsDueWithinOneYearTotalCurrentLiabilities>
+<!-- Creditors due after 12 months -->
+  <pt:BankLoansOverdraftsAfterOneYear precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:BankLoansOverdraftsAfterOneYear&gt;</pt:BankLoansOverdraftsAfterOneYear>
+  <pt:BankLoansOverdraftsAfterOneYear precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:BankLoansOverdraftsAfterOneYear&gt;</pt:BankLoansOverdraftsAfterOneYear>
+  <pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear&gt;</pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear>
+  <pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear&gt;</pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear>
+  <ae:LoansFromDirectors precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:LoansFromDirectors&gt;</ae:LoansFromDirectors>
+  <ae:LoansFromDirectors precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:LoansFromDirectors&gt;</ae:LoansFromDirectors>
+  <pt:OtherCreditorsAfterOneYear precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:OtherCreditorsAfterOneYear&gt;</pt:OtherCreditorsAfterOneYear>
+  <pt:OtherCreditorsAfterOneYear precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:OtherCreditorsAfterOneYear&gt;</pt:OtherCreditorsAfterOneYear>
+<!-- ~Creditors due after 12 months -->
+<ae:DisplayTotalCreditorsNote contextRef="y2009">&lt;ae:DisplayTotalCreditorsNote&gt;</ae:DisplayTotalCreditorsNote>
+<ae:AggregateCreditorsFreeTextNote contextRef='e2009'>&lt;ae:AggregateCreditorsFreeTextNote&gt;</ae:AggregateCreditorsFreeTextNote>
+  <ae:TransactionsWithDirectors contextRef='y2009'>&lt;ae:TransactionsWithDirectors&gt;</ae:TransactionsWithDirectors>
+  <pt:RelatedPartyDisclosures>
+    <pt:StatementOnRelatedPartyDisclosure contextRef='y2009'>&lt;pt:StatementOnRelatedPartyDisclosure&gt;</pt:StatementOnRelatedPartyDisclosure>
+  </pt:RelatedPartyDisclosures>
+<!-- TFA tuple -->
+  <ae:OtherTypeTangibleFixedAsset-Analysis>
+    <ae:NameTypeTangibleFixedAsset contextRef='y2009'>&lt;ae:NameTypeTangibleFixedAsset&gt;</ae:NameTypeTangibleFixedAsset>
+    <ae:CostOrValuationOtherTangibleFixedAsset>
+      <ae:OtherTangibleFixedAssetCostOrValuation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetCostOrValuation&gt;</ae:OtherTangibleFixedAssetCostOrValuation>
+      <ae:OtherTangibleFixedAssetCostOrValuation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetCostOrValuation&gt;</ae:OtherTangibleFixedAssetCostOrValuation>
+      <ae:OtherTangibleFixedAssetAdditions precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetAdditions&gt;</ae:OtherTangibleFixedAssetAdditions>
+      <ae:OtherTangibleFixedAssetDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetDisposals&gt;</ae:OtherTangibleFixedAssetDisposals>
+      <ae:OtherTangibleFixedAssetRevaluation precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetRevaluation&gt;</ae:OtherTangibleFixedAssetRevaluation>
+      <ae:OtherTangibleFixedAssetTransfers precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetTransfers&gt;</ae:OtherTangibleFixedAssetTransfers>
+    </ae:CostOrValuationOtherTangibleFixedAsset>
+    <ae:DepreciationOtherTangibleFixedAsset>
+      <ae:OtherTangibleFixedAssetDepreciation precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetDepreciation&gt;</ae:OtherTangibleFixedAssetDepreciation>
+      <ae:OtherTangibleFixedAssetDepreciation precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetDepreciation&gt;</ae:OtherTangibleFixedAssetDepreciation>
+      <ae:OtherTangibleFixedAssetDepreciationChargeForPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetDepreciationChargeForPeriod&gt;</ae:OtherTangibleFixedAssetDepreciationChargeForPeriod>
+      <ae:OtherTangibleFixedAssetDepreciationDisposals precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:OtherTangibleFixedAssetDepreciationDisposals&gt;</ae:OtherTangibleFixedAssetDepreciationDisposals>
+    </ae:DepreciationOtherTangibleFixedAsset>
+    <ae:OtherTangibleFixedAsset precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:OtherTangibleFixedAsset&gt;</ae:OtherTangibleFixedAsset>
+    <ae:OtherTangibleFixedAsset precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:OtherTangibleFixedAsset&gt;</ae:OtherTangibleFixedAsset>
+  </ae:OtherTypeTangibleFixedAsset-Analysis>
+<!-- ~TFA tuple -->
+  <pt:EquityAuthorisedDetails>
+    <pt:TypeOrdinaryShare contextRef='y2009'>&lt;pt:TypeOrdinaryShare&gt;</pt:TypeOrdinaryShare>
+    <pt:NumberOrdinarySharesAuthorised precision='INF' contextRef='e2009' unitRef='shares'>&lt;pt:NumberOrdinarySharesAuthorised&gt;</pt:NumberOrdinarySharesAuthorised>
+    <pt:ParValueOrdinaryShare precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ParValueOrdinaryShare&gt;</pt:ParValueOrdinaryShare>
+    <pt:ValueOrdinarySharesAuthorised precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ValueOrdinarySharesAuthorised&gt;</pt:ValueOrdinarySharesAuthorised>
+    <pt:ValueOrdinarySharesAuthorised precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ValueOrdinarySharesAuthorised&gt;</pt:ValueOrdinarySharesAuthorised>
+  </pt:EquityAuthorisedDetails>
+  <pt:EquityAuthorisedDetails>
+    <pt:TypeOrdinaryShare contextRef='y2009'>&lt;pt:TypeOrdinaryShare&gt;</pt:TypeOrdinaryShare>
+    <pt:NumberOrdinarySharesAuthorised precision='INF' contextRef='e2009' unitRef='shares'>&lt;pt:NumberOrdinarySharesAuthorised&gt;</pt:NumberOrdinarySharesAuthorised>
+    <pt:ParValueOrdinaryShare precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ParValueOrdinaryShare&gt;</pt:ParValueOrdinaryShare>
+    <pt:ValueOrdinarySharesAuthorised precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ValueOrdinarySharesAuthorised&gt;</pt:ValueOrdinarySharesAuthorised>
+    <pt:ValueOrdinarySharesAuthorised precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ValueOrdinarySharesAuthorised&gt;</pt:ValueOrdinarySharesAuthorised>
+  </pt:EquityAuthorisedDetails>
+  <pt:NonEquityAuthorisedDetails>
+    <pt:TypeNonEquityShare contextRef='y2009'>&lt;pt:TypeNonEquityShare&gt;</pt:TypeNonEquityShare>
+    <pt:NumberNonEquitySharesAuthorised precision='INF' contextRef='e2009' unitRef='shares'>&lt;pt:NumberNonEquitySharesAuthorised&gt;</pt:NumberNonEquitySharesAuthorised>
+    <pt:ParValueNonEquityShare precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ParValueNonEquityShare&gt;</pt:ParValueNonEquityShare>
+    <pt:ValueNonEquitySharesAuthorised precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ValueNonEquitySharesAuthorised&gt;</pt:ValueNonEquitySharesAuthorised>
+    <pt:ValueNonEquitySharesAuthorised precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ValueNonEquitySharesAuthorised&gt;</pt:ValueNonEquitySharesAuthorised>
+  </pt:NonEquityAuthorisedDetails>
+  <pt:NonEquityAllottedDetails>
+    <pt:TypeNonEquityShare contextRef='y2009'>&lt;pt:TypeNonEquityShare&gt;</pt:TypeNonEquityShare>
+    <pt:NumberNonEquitySharesAllotted precision='INF' contextRef='e2009' unitRef='shares'>&lt;pt:NumberNonEquitySharesAllotted&gt;</pt:NumberNonEquitySharesAllotted>
+    <pt:ParValueNonEquityShare precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ParValueNonEquityShare&gt;</pt:ParValueNonEquityShare>
+    <pt:ValueNonEquitySharesAllotted precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ValueNonEquitySharesAllotted&gt;</pt:ValueNonEquitySharesAllotted>
+    <pt:ValueNonEquitySharesAllotted precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ValueNonEquitySharesAllotted&gt;</pt:ValueNonEquitySharesAllotted>
+  </pt:NonEquityAllottedDetails>
+  <pt:DetailsOrdinarySharesAllotted>
+    <pt:TypeOrdinaryShare contextRef='y2009'>&lt;pt:TypeOrdinaryShare&gt;</pt:TypeOrdinaryShare>
+    <pt:ParValueOrdinaryShare precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ParValueOrdinaryShare&gt;</pt:ParValueOrdinaryShare>
+    <pt:ValueOrdinarySharesAllotted precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ValueOrdinarySharesAllotted&gt;</pt:ValueOrdinarySharesAllotted>
+    <pt:ValueOrdinarySharesAllotted precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ValueOrdinarySharesAllotted&gt;</pt:ValueOrdinarySharesAllotted>
+    <pt:NumberOrdinarySharesAllotted precision='INF' contextRef='e2009' unitRef='shares'>&lt;pt:NumberOrdinarySharesAllotted&gt;</pt:NumberOrdinarySharesAllotted>
+  </pt:DetailsOrdinarySharesAllotted>
+  <pt:DetailsOrdinarySharesAllotted>
+    <pt:TypeOrdinaryShare contextRef='y2009'>&lt;pt:TypeOrdinaryShare&gt;</pt:TypeOrdinaryShare>
+    <pt:ParValueOrdinaryShare precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ParValueOrdinaryShare&gt;</pt:ParValueOrdinaryShare>
+    <pt:ValueOrdinarySharesAllotted precision='INF' contextRef='e2009' unitRef='GBP'>&lt;pt:ValueOrdinarySharesAllotted&gt;</pt:ValueOrdinarySharesAllotted>
+    <pt:ValueOrdinarySharesAllotted precision='INF' contextRef='e2008' unitRef='GBP'>&lt;pt:ValueOrdinarySharesAllotted&gt;</pt:ValueOrdinarySharesAllotted>
+    <pt:NumberOrdinarySharesAllotted precision='INF' contextRef='e2009' unitRef='shares'>&lt;pt:NumberOrdinarySharesAllotted&gt;</pt:NumberOrdinarySharesAllotted>
+  </pt:DetailsOrdinarySharesAllotted>
+  <pt:OrdinarySharesIssuedInPeriod-Details>
+    <pt:TypeOrdinaryShare contextRef='y2009'>&lt;pt:TypeOrdinaryShare&gt;</pt:TypeOrdinaryShare>
+    <pt:ParValueOrdinaryShare precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ParValueOrdinaryShare&gt;</pt:ParValueOrdinaryShare>
+    <pt:TotalNumberSharesIssued precision='INF' contextRef='y2009' unitRef='shares'>&lt;pt:TotalNumberSharesIssued&gt;</pt:TotalNumberSharesIssued>
+    <pt:TotalNominalValue precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TotalNominalValue&gt;</pt:TotalNominalValue>
+    <pt:TotalConsideration precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:TotalConsideration&gt;</pt:TotalConsideration>
+  </pt:OrdinarySharesIssuedInPeriod-Details>
+  <pt:NonEquitySharesDetailsAllotmentsDuringPeriod>
+    <pt:TypeNonEquityShare contextRef='y2009'>&lt;pt:TypeNonEquityShare&gt;</pt:TypeNonEquityShare>
+    <pt:ParValueNonEquityShare precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ParValueNonEquityShare&gt;</pt:ParValueNonEquityShare>
+    <pt:NumberNonEquitySharesAllottedInPeriod precision='INF' contextRef='y2009' unitRef='shares'>&lt;pt:NumberNonEquitySharesAllottedInPeriod&gt;</pt:NumberNonEquitySharesAllottedInPeriod>
+    <pt:ValueNonEquitySharesAllottedInPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ValueNonEquitySharesAllottedInPeriod&gt;</pt:ValueNonEquitySharesAllottedInPeriod>
+    <pt:ConsiderationForNonEquitySharesAllottedInPeriod precision='INF' contextRef='y2009' unitRef='GBP'>&lt;pt:ConsiderationForNonEquitySharesAllottedInPeriod&gt;</pt:ConsiderationForNonEquitySharesAllottedInPeriod>
+  </pt:NonEquitySharesDetailsAllotmentsDuringPeriod>
+  <ae:RedeemableShareDetails>
+   <ae:RedeemableSharesFreeTextNote contextRef='e2009'>&lt;ae:RedeemableSharesFreeTextNote&gt;</ae:RedeemableSharesFreeTextNote>
+  </ae:RedeemableShareDetails>
+  <ae:ShareCapitalFreeTextNote contextRef='e2009'>&lt;ae:ShareCapitalFreeTextNote&gt;</ae:ShareCapitalFreeTextNote>
+  <ae:TransactionWithDirector>
+    <ae:DirectorsName contextRef='e2009'>&lt;ae:DirectorsName&gt;</ae:DirectorsName>
+    <ae:DirectorsLiability precision='INF' contextRef='e2008' unitRef='GBP'>&lt;ae:DirectorsLiability&gt;</ae:DirectorsLiability>
+    <ae:DirectorsLiability precision='INF' contextRef='e2009' unitRef='GBP'>&lt;ae:DirectorsLiability&gt;</ae:DirectorsLiability>
+    <ae:DirectorsMaximumLiability precision='INF' contextRef='y2009' unitRef='GBP'>&lt;ae:DirectorsMaximumLiability&gt;</ae:DirectorsMaximumLiability>
+  </ae:TransactionWithDirector>
+  <ae:AdditionalNote>
+    <ae:TitleAdditionalNote contextRef='y2009'>&lt;ae:TitleAdditionalNote&gt;</ae:TitleAdditionalNote>
+    <ae:ContentAdditionalNote contextRef='y2009'>&lt;ae:ContentAdditionalNote&gt;</ae:ContentAdditionalNote>
+  </ae:AdditionalNote>
+  <ae:AdditionalNote>
+    <ae:TitleAdditionalNote contextRef='y2009'>&lt;ae:TitleAdditionalNote&gt;</ae:TitleAdditionalNote>
+    <ae:ContentAdditionalNote contextRef='y2009'>&lt;ae:ContentAdditionalNote&gt;</ae:ContentAdditionalNote>
+  </ae:AdditionalNote>
+  <link:footnoteLink xlink:role='http://www.xbrl.org/2003/role/link' xlink:title='Admin Costs' xlink:type='extended'>
+    <link:footnote xlink:label='footnote2' xlink:type='resource' xml:lang='en'>&lt;link:footnote&gt;</link:footnote>
+    <link:loc xlink:href='#s2-1' xlink:label='s2-1' xlink:title='AE footnote' xlink:type='locator' />
+    <link:footnoteArc use='optional' order='3' priority='5' xlink:actuate='onRequest' xlink:arcrole='http://www.xbrl.org/2003/arcrole/fact-footnote' xlink:from='s2-1' xlink:show='replace' xlink:title='AE footnote' xlink:to='footnote2' xlink:type='arc' />&lt;link:footnote&gt;</link:footnoteLink>
+  <unit id='shares'>
+    <measure>xbrli:shares</measure>
+  </unit>
+  <unit id='GBP'>
+    <measure>iso4217:GBP</measure>
+  </unit>
+  <unit id='pure'>
+    <measure>xbrli:pure</measure>
+  </unit>
+  <context id='y2009'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <startDate>2008-11-01</startDate>
+      <endDate>2009-10-31</endDate>
+    </period>
+  </context>
+  <context id='y2008'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <startDate>2007-11-01</startDate>
+      <endDate>2008-10-31</endDate>
+    </period>
+  </context>
+  <context id='s2008'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2007-10-31</instant>
+    </period>
+  </context>
+  <context id='e2008'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2008-10-31</instant>
+    </period>
+  </context>
+  <context id='s2009'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2008-10-31</instant>
+    </period>
+  </context>
+  <context id='e2009'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2009-10-31</instant>
+    </period>
+  </context>
+</xbrl>

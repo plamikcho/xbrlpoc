@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:embedding="http://embedding/20090501"
+xmlns:link="http://www.xbrl.org/2003/linkbase"
+xmlns:us-types="http://xbrl.us/us-types/2009-01-31"
+xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+xmlns:rr="http://xbrl.sec.gov/rr/2010-02-28"
+xmlns:dei="http://xbrl.us/dei/2009-01-31"
+xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xbrli="http://www.xbrl.org/2003/instance"
+xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+targetNamespace="http://embedding/20090501"
+elementFormDefault="qualified">
+<xs:annotation>
+<xs:appinfo>
+<link:linkbaseRef xlink:type="simple" xlink:href="embedding-20090501_pre.xml"
+xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"
+xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+<link:linkbaseRef xlink:type="simple" xlink:href="embedding-20090501_def.xml"
+xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"
+xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+<link:linkbaseRef xlink:type="simple" xlink:href="embedding-20090501_lab.xml"
+xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef"
+xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+</xs:appinfo>
+</xs:annotation>
+<xs:import namespace="http://www.xbrl.org/2003/linkbase"
+schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+<xs:import namespace="http://www.xbrl.org/2003/instance"
+schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+<xs:import namespace="http://xbrl.us/us-types/2009-01-31"
+schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-types-2009-01-31.xsd"/>
+<xs:import namespace="http://xbrl.sec.gov/rr-ent/2010-02-28"
+schemaLocation="http://xbrl.sec.gov/rr/2010/rr-ent-2010-02-28.xsd"/>
+<xs:element name="S013456789Member" id="embedding_S013456789Member"
+type="us-types:domainItemType"
+substitutionGroup="xbrli:item"
+nillable="true"
+xbrli:periodType="duration"/>
+<xs:element name="C012345600Member" id="embedding_C012345600Member"
+type="us-types:domainItemType"
+substitutionGroup="xbrli:item"
+nillable="true"
+xbrli:periodType="duration"/>
+<xs:element name="C012345601Member" id="embedding_C012345601Member"
+type="us-types:domainItemType"
+substitutionGroup="xbrli:item"
+nillable="true"
+xbrli:periodType="duration"/>
+<xs:element name="C012345602Member" id="embedding_C012345602Member"
+type="us-types:domainItemType"
+substitutionGroup="xbrli:item"
+nillable="true"
+xbrli:periodType="duration"/>
+<xs:element name="SnPIndexMember" id="embedding_SnPIndexMember"
+type="us-types:domainItemType"
+substitutionGroup="xbrli:item"
+nillable="true"
+xbrli:periodType="duration"/>
+</xs:schema>

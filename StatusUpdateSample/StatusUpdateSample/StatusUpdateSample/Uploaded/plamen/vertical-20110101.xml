@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<xbrli:xbrl xmlns:vertical="http://vertical/20110101"
+xmlns:link="http://www.xbrl.org/2003/linkbase"
+xmlns:us-gaap="http://xbrl.us/us-gaap/2009-01-31"
+xmlns:asi="http://20110222"
+xmlns:dei="http://xbrl.us/dei/2009-01-31"
+xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xbrli="http://www.xbrl.org/2003/instance"
+xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<link:schemaRef xlink:type="simple" xlink:href="vertical-20110101.xsd"/>
+<xbrli:context id="c00000">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2011-01-01</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00001">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2011-01-01</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00002">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2011-01-01</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00003">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2011-01-01</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00004">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2011-01-01</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00005">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2011-01-01</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00006">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:NoncontrollingInterestMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2011-01-01</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00007">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2010-01-02</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00008">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2010-01-02</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00009">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2010-01-02</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00010">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2010-01-02</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00011">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2010-01-02</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00012">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2010-01-02</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00013">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:NoncontrollingInterestMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2010-01-02</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00014">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2009-01-03</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00015">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2009-01-03</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00016">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2009-01-03</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00017">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2009-01-03</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00018">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2009-01-03</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00019">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2009-01-03</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00020">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:NoncontrollingInterestMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2009-01-03</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00021">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2010-01-03</xbrli:startDate>
+<xbrli:endDate>2011-01-01</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00022">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2010-01-03</xbrli:startDate>
+<xbrli:endDate>2011-01-01</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00023">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2010-01-03</xbrli:startDate>
+<xbrli:endDate>2011-01-01</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00024">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2010-01-03</xbrli:startDate>
+<xbrli:endDate>2011-01-01</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00025">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2010-01-03</xbrli:startDate>
+<xbrli:endDate>2011-01-01</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00026">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2010-01-03</xbrli:startDate>
+<xbrli:endDate>2011-01-01</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00027">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:NoncontrollingInterestMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2010-01-03</xbrli:startDate>
+<xbrli:endDate>2011-01-01</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00028">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2009-01-04</xbrli:startDate>
+<xbrli:endDate>2010-01-02</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00029">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2009-01-04</xbrli:startDate>
+<xbrli:endDate>2010-01-02</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00030">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2009-01-04</xbrli:startDate>
+<xbrli:endDate>2010-01-02</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00031">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2009-01-04</xbrli:startDate>
+<xbrli:endDate>2010-01-02</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00032">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2009-01-04</xbrli:startDate>
+<xbrli:endDate>2010-01-02</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00033">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2009-01-04</xbrli:startDate>
+<xbrli:endDate>2010-01-02</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00034">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:NoncontrollingInterestMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2009-01-04</xbrli:startDate>
+<xbrli:endDate>2010-01-02</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00035">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2007-12-30</xbrli:startDate>
+<xbrli:endDate>2009-01-03</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00036">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2007-12-30</xbrli:startDate>
+<xbrli:endDate>2009-01-03</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00037">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2007-12-30</xbrli:startDate>
+<xbrli:endDate>2009-01-03</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00038">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2007-12-30</xbrli:startDate>
+<xbrli:endDate>2009-01-03</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00039">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2007-12-30</xbrli:startDate>
+<xbrli:endDate>2009-01-03</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00040">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2007-12-30</xbrli:startDate>
+<xbrli:endDate>2009-01-03</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00041">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:NoncontrollingInterestMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2007-12-30</xbrli:startDate>
+<xbrli:endDate>2009-01-03</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00042">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2007-12-29</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00043">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2007-12-29</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00044">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AdditionalPaidInCapitalMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2007-12-29</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00045">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:AccumulatedOtherComprehensiveIncomeMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2007-12-29</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00046">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:RetainedEarningsMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2007-12-29</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00047">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:TreasuryStockMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2007-12-29</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="c00048">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">9876543210</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension="us-gaap:StatementEquityComponentsAxis">us-gaap:NoncontrollingInterestMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2007-12-29</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:unit id="u000">
+<xbrli:measure>iso4217:USD</xbrli:measure>
+</xbrli:unit>
+<us-gaap:ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00035" unitRef="u000">-58000000</us-gaap:ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00028" unitRef="u000">140000000</us-gaap:ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00021" unitRef="u000">167000000</us-gaap:ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00036" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00029" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00022" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00037" unitRef="u000">-3000000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00030" unitRef="u000">-34000000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00023" unitRef="u000">-16000000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00038" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00031" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00024" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00039" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00032" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00025" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00040" unitRef="u000">4000000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00033" unitRef="u000">40000000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00026" unitRef="u000">22000000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00035" unitRef="u000">1000000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00028" unitRef="u000">6000000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00021" unitRef="u000">6000000</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00041" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00034" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised decimals="-6" contextRef="c00027" unitRef="u000">0</us-gaap:StockIssuedDuringPeriodValueStockOptionsExercised>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00036" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00029" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00022" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00037" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00030" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00023" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00038" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00031" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00024" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00039" unitRef="u000">-43000000</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00032" unitRef="u000">-43000000</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00025" unitRef="u000">-47000000</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00040" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00033" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00026" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00035" unitRef="u000">-43000000</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00028" unitRef="u000">-43000000</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00021" unitRef="u000">-47000000</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00041" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00034" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:DividendsCommonStockCash decimals="-6" contextRef="c00027" unitRef="u000">0</us-gaap:DividendsCommonStockCash>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00000" unitRef="u000">1021000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00007" unitRef="u000">886000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00042" unitRef="u000">780000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00014" unitRef="u000">777000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00043" unitRef="u000">124000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00015" unitRef="u000">124000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00008" unitRef="u000">124000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00001" unitRef="u000">124000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00044" unitRef="u000">475000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00016" unitRef="u000">461000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00009" unitRef="u000">433000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00002" unitRef="u000">426000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00045" unitRef="u000">-139000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00017" unitRef="u000">-189000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00010" unitRef="u000">-256000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00003" unitRef="u000">-257000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00046" unitRef="u000">987000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00018" unitRef="u000">936000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00011" unitRef="u000">1099000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00004" unitRef="u000">1220000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00047" unitRef="u000">-667000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00019" unitRef="u000">-646000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00012" unitRef="u000">-606000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00005" unitRef="u000">-584000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00048" unitRef="u000">0</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00020" unitRef="u000">91000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00013" unitRef="u000">92000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest decimals="-6" contextRef="c00006" unitRef="u000">92000000</us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest>
+<vertical:ConsolidationOfVariableInterestEntity decimals="-6" contextRef="c00036" unitRef="u000">0</vertical:ConsolidationOfVariableInterestEntity>
+<vertical:ConsolidationOfVariableInterestEntity decimals="-6" contextRef="c00037" unitRef="u000">0</vertical:ConsolidationOfVariableInterestEntity>
+<vertical:ConsolidationOfVariableInterestEntity decimals="-6" contextRef="c00038" unitRef="u000">0</vertical:ConsolidationOfVariableInterestEntity>
+<vertical:ConsolidationOfVariableInterestEntity decimals="-6" contextRef="c00039" unitRef="u000">0</vertical:ConsolidationOfVariableInterestEntity>
+<vertical:ConsolidationOfVariableInterestEntity decimals="-6" contextRef="c00040" unitRef="u000">0</vertical:ConsolidationOfVariableInterestEntity>
+<vertical:ConsolidationOfVariableInterestEntity decimals="-6" contextRef="c00035" unitRef="u000">91000000</vertical:ConsolidationOfVariableInterestEntity>
+<vertical:ConsolidationOfVariableInterestEntity decimals="-6" contextRef="c00041" unitRef="u000">91000000</vertical:ConsolidationOfVariableInterestEntity>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00036" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00029" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00022" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00037" unitRef="u000">-10000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00030" unitRef="u000">4000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00023" unitRef="u000">7000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00038" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00031" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00024" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00039" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00032" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00025" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00040" unitRef="u000">17000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00033" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00026" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00035" unitRef="u000">7000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00028" unitRef="u000">4000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00021" unitRef="u000">7000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00041" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00034" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue decimals="-6" contextRef="c00027" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00021" unitRef="u000">168000000</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00028" unitRef="u000">207000000</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00035" unitRef="u000">-8000000</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00036" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00029" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00022" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00037" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00030" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00023" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00038" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00031" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00024" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00039" unitRef="u000">-8000000</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00032" unitRef="u000">206000000</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00025" unitRef="u000">168000000</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00040" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00033" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00026" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00041" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00034" unitRef="u000">1000000</us-gaap:ProfitLoss>
+<us-gaap:ProfitLoss decimals="-6" contextRef="c00027" unitRef="u000">0</us-gaap:ProfitLoss>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00036" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00029" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00022" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00037" unitRef="u000">-1000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00030" unitRef="u000">2000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00023" unitRef="u000">2000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00038" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00031" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00024" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00039" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00032" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00025" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00040" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00033" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00026" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00035" unitRef="u000">-1000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00028" unitRef="u000">2000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00021" unitRef="u000">2000000</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00041" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00034" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation decimals="-6" contextRef="c00027" unitRef="u000">0</us-gaap:AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00036" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00029" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00022" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00037" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00030" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00023" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00038" unitRef="u000">-14000000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00031" unitRef="u000">5000000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00024" unitRef="u000">4000000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00039" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00032" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00025" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00040" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00033" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00026" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00035" unitRef="u000">-14000000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00028" unitRef="u000">5000000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00021" unitRef="u000">4000000</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00041" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00034" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00027" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00036" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00029" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00022" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00037" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00030" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00023" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00038" unitRef="u000">-36000000</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00031" unitRef="u000">-72000000</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00024" unitRef="u000">-5000000</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00039" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00032" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00025" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00040" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00033" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00026" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00035" unitRef="u000">-36000000</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00028" unitRef="u000">-72000000</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00021" unitRef="u000">-5000000</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00041" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00034" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease decimals="-6" contextRef="c00027" unitRef="u000">0</us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease>
+<dei:DocumentType contextRef="c00021">8-K</dei:DocumentType>
+<dei:EntityCentralIndexKey contextRef="c00021">9876543210</dei:EntityCentralIndexKey>
+<dei:EntityRegistrantName contextRef="c00021">VERTICAL</dei:EntityRegistrantName>
+<dei:AmendmentFlag contextRef="c00021">false</dei:AmendmentFlag>
+<dei:DocumentPeriodEndDate contextRef="c00021">2011-01-01</dei:DocumentPeriodEndDate>
+</xbrli:xbrl>

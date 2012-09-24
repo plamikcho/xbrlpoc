@@ -1,0 +1,607 @@
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:ref='http://www.xbrl.org/2006/ref' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd'>
+<referenceLink xlink:role='http://www.xbrl.org/2003/role/link' xlink:type='extended'>
+<loc xlink:href='mda-2008-03-31.xsd#mda_AccountingChangesDiscussion' xlink:label='mda_AccountingChangesDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_0' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Staff Accounting Bulletin (SAB)</ref:Name>
+<ref:Number>Topic 11</ref:Number>
+<ref:Section>M</ref:Section>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AccountingChangesDiscussion' xlink:to='ref_0' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_AcquisitionOfOwnStockDiscussion' xlink:label='mda_AcquisitionOfOwnStockDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_1' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-B (SB)</ref:Name>
+<ref:Number>228</ref:Number>
+<ref:Section>303</ref:Section>
+<ref:Paragraph>b-c</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AcquisitionOfOwnStockDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<reference xlink:label='ref_2' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>303</ref:Section>
+<ref:Paragraph>b-c</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AcquisitionOfOwnStockDiscussion' xlink:to='ref_2' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_AdditionalFactorsThatMayAffectFutureResultsDiscussion' xlink:label='mda_AdditionalFactorsThatMayAffectFutureResultsDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_3' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'></reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AdditionalFactorsThatMayAffectFutureResultsDiscussion' xlink:to='ref_3' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_AllowanceForLoanLossesDiscussion' xlink:label='mda_AllowanceForLoanLossesDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_4' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>OTS</ref:Publisher>
+<ref:Name>Federal Regulation (FR)</ref:Name>
+<ref:Number>Title 12</ref:Number>
+<ref:Chapter>V</ref:Chapter>
+<ref:Section>563c.102</ref:Section>
+<ref:Paragraph>8</ref:Paragraph>
+<ref:Subparagraph>(k)</ref:Subparagraph>
+<ref:Subsection>I</ref:Subsection>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AllowanceForLoanLossesDiscussion' xlink:to='ref_4' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AllowanceForLoanLossesDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<reference xlink:label='ref_5' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>303</ref:Section>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AllowanceForLoanLossesDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<reference xlink:label='ref_6' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Section>03</ref:Section>
+<ref:Paragraph>7</ref:Paragraph>
+<ref:Article>9</ref:Article>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AllowanceForLoanLossesDiscussion' xlink:to='ref_6' xlink:type='arc' />
+<reference xlink:label='ref_7' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Section>03</ref:Section>
+<ref:Paragraph>7</ref:Paragraph>
+<ref:Subparagraph>(d)</ref:Subparagraph>
+<ref:Article>9</ref:Article>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AllowanceForLoanLossesDiscussion' xlink:to='ref_7' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_AlternativeMeasuresOfPerformanceDiscussion' xlink:label='mda_AlternativeMeasuresOfPerformanceDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AlternativeMeasuresOfPerformanceDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AlternativeMeasuresOfPerformanceDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_AnalysisOfConsolidatedStatementOfIncomeDiscussion' xlink:label='mda_AnalysisOfConsolidatedStatementOfIncomeDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AnalysisOfConsolidatedStatementOfIncomeDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AnalysisOfConsolidatedStatementOfIncomeDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_AnticipatedCashFlowDiscussion' xlink:label='mda_AnticipatedCashFlowDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AnticipatedCashFlowDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AnticipatedCashFlowDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_AssetQualityDiscussion' xlink:label='mda_AssetQualityDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AssetQualityDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_AssetQualityDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_BusinessCombinationsDiscussion' xlink:label='mda_BusinessCombinationsDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_8' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Emerging Issues Task Force (EITF)</ref:Name>
+<ref:Number>87-11</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_BusinessCombinationsDiscussion' xlink:to='ref_8' xlink:type='arc' />
+<reference xlink:label='ref_9' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Staff Accounting Bulletin (SAB)</ref:Name>
+<ref:Number>Topic 2</ref:Number>
+<ref:Section>A</ref:Section>
+<ref:Paragraph>7</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_BusinessCombinationsDiscussion' xlink:to='ref_9' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_BusinessSegmentsDiscussion' xlink:label='mda_BusinessSegmentsDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_10' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Emerging Issues Task Force (EITF)</ref:Name>
+<ref:Number>D-70</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_BusinessSegmentsDiscussion' xlink:to='ref_10' xlink:type='arc' />
+<reference xlink:label='ref_11' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>131</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_BusinessSegmentsDiscussion' xlink:to='ref_11' xlink:type='arc' />
+<reference xlink:label='ref_12' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>135</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_BusinessSegmentsDiscussion' xlink:to='ref_12' xlink:type='arc' />
+<reference xlink:label='ref_13' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>101</ref:Section>
+<ref:Paragraph>d</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_BusinessSegmentsDiscussion' xlink:to='ref_13' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_BusinessSegmentsForeignOperationsRisks' xlink:label='mda_BusinessSegmentsForeignOperationsRisks' xlink:type='locator' />
+<reference xlink:label='ref_14' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>101</ref:Section>
+<ref:Paragraph>d</ref:Paragraph>
+<ref:Subparagraph>2</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_BusinessSegmentsForeignOperationsRisks' xlink:to='ref_14' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_BusinessSegmentsPrincipleMarketsDistribution' xlink:label='mda_BusinessSegmentsPrincipleMarketsDistribution' xlink:type='locator' />
+<reference xlink:label='ref_15' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>101</ref:Section>
+<ref:Paragraph>c</ref:Paragraph>
+<ref:Subparagraph>1(i)</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_BusinessSegmentsPrincipleMarketsDistribution' xlink:to='ref_15' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_BusinessSegmentsRevenueContributedByTypeOfProductOrService' xlink:label='mda_BusinessSegmentsRevenueContributedByTypeOfProductOrService' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_BusinessSegmentsRevenueContributedByTypeOfProductOrService' xlink:to='ref_15' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ChangesInAccountingEstimatesDiscussion' xlink:label='mda_ChangesInAccountingEstimatesDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ChangesInAccountingEstimatesDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ChangesInAccountingEstimatesDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ChangesInAndDisagreementsWithAccountantsDiscussion' xlink:label='mda_ChangesInAndDisagreementsWithAccountantsDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_16' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation 14A</ref:Name>
+<ref:Number>240</ref:Number>
+<ref:Section>14a</ref:Section>
+<ref:Paragraph>b</ref:Paragraph>
+<ref:Subparagraph>4</ref:Subparagraph>
+<ref:Subsection>3</ref:Subsection>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ChangesInAndDisagreementsWithAccountantsDiscussion' xlink:to='ref_16' xlink:type='arc' />
+<reference xlink:label='ref_17' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-B (SB)</ref:Name>
+<ref:Number>228</ref:Number>
+<ref:Section>304</ref:Section>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ChangesInAndDisagreementsWithAccountantsDiscussion' xlink:to='ref_17' xlink:type='arc' />
+<reference xlink:label='ref_18' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>304</ref:Section>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ChangesInAndDisagreementsWithAccountantsDiscussion' xlink:to='ref_18' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ChangesToPensionPlansAndImpactDiscussion' xlink:label='mda_ChangesToPensionPlansAndImpactDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ChangesToPensionPlansAndImpactDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ChangesToPensionPlansAndImpactDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ContingenciesDiscussion' xlink:label='mda_ContingenciesDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_19' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>AICPA</ref:Publisher>
+<ref:Name>Statement of Position (SOP)</ref:Name>
+<ref:Number>94-6</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ContingenciesDiscussion' xlink:to='ref_19' xlink:type='arc' />
+<reference xlink:label='ref_20' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Staff Accounting Bulletin (SAB)</ref:Name>
+<ref:Number>Topic 5</ref:Number>
+<ref:Section>Y</ref:Section>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ContingenciesDiscussion' xlink:to='ref_20' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_CostAndExpenseDiscussion' xlink:label='mda_CostAndExpenseDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_CostAndExpenseDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_CostAndExpenseDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_DepositsAndOtherSourcesOfFundsDiscussion' xlink:label='mda_DepositsAndOtherSourcesOfFundsDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_DepositsAndOtherSourcesOfFundsDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_DepositsAndOtherSourcesOfFundsDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_DerivativesActivitiesDiscussion' xlink:label='mda_DerivativesActivitiesDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_21' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>133</ref:Number>
+<ref:Paragraph>44</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_DerivativesActivitiesDiscussion' xlink:to='ref_21' xlink:type='arc' />
+<reference xlink:label='ref_22' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-X (SX)</ref:Name>
+<ref:Number>210</ref:Number>
+<ref:Section>08</ref:Section>
+<ref:Article>4</ref:Article>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_DerivativesActivitiesDiscussion' xlink:to='ref_22' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_DescriptionOfBusiness' xlink:label='mda_DescriptionOfBusiness' xlink:type='locator' />
+<reference xlink:label='ref_23' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation 14A</ref:Name>
+<ref:Number>240</ref:Number>
+<ref:Section>14a</ref:Section>
+<ref:Paragraph>b</ref:Paragraph>
+<ref:Subparagraph>6</ref:Subparagraph>
+<ref:Subsection>3</ref:Subsection>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_DescriptionOfBusiness' xlink:to='ref_23' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_DiscontinuedOperationsDiscussion' xlink:label='mda_DiscontinuedOperationsDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_24' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Emerging Issues Task Force (EITF)</ref:Name>
+<ref:Number>90-16</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_DiscontinuedOperationsDiscussion' xlink:to='ref_24' xlink:type='arc' />
+<reference xlink:label='ref_25' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Staff Accounting Bulletin (SAB)</ref:Name>
+<ref:Number>Topic 5</ref:Number>
+<ref:Section>Z</ref:Section>
+<ref:Paragraph>Question 1</ref:Paragraph>
+<ref:Subsection>5</ref:Subsection>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_DiscontinuedOperationsDiscussion' xlink:to='ref_25' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_DividendsDiscussion' xlink:label='mda_DividendsDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_DividendsDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_DividendsDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_EffectsOfChangingPricesDiscussion' xlink:label='mda_EffectsOfChangingPricesDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_26' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>89</ref:Number>
+<ref:Paragraph>3</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_EffectsOfChangingPricesDiscussion' xlink:to='ref_26' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_EffectsOfEquityInstrumentsBeingIssuedOrReceivedFromPartnersDiscussion' xlink:label='mda_EffectsOfEquityInstrumentsBeingIssuedOrReceivedFromPartnersDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_EffectsOfEquityInstrumentsBeingIssuedOrReceivedFromPartnersDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_EffectsOfEquityInstrumentsBeingIssuedOrReceivedFromPartnersDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_EffectsOfGasImbalancesOnOperationsLiquidityAndCapitalResources' xlink:label='mda_EffectsOfGasImbalancesOnOperationsLiquidityAndCapitalResources' xlink:type='locator' />
+<reference xlink:label='ref_27' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Emerging Issues Task Force (EITF)</ref:Name>
+<ref:Number>90-22</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_EffectsOfGasImbalancesOnOperationsLiquidityAndCapitalResources' xlink:to='ref_27' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ExposureForAsbestosTreatmentCostsDiscussion' xlink:label='mda_ExposureForAsbestosTreatmentCostsDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_28' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Emerging Issues Task Force (EITF)</ref:Name>
+<ref:Number>89-13</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ExposureForAsbestosTreatmentCostsDiscussion' xlink:to='ref_28' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_FederalFinancialAssistanceDiscussion' xlink:label='mda_FederalFinancialAssistanceDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_29' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Staff Accounting Bulletin (SAB)</ref:Name>
+<ref:Number>Topic 11</ref:Number>
+<ref:Section>N</ref:Section>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_FederalFinancialAssistanceDiscussion' xlink:to='ref_29' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_FeesOfIndependentAuditorsDiscussion' xlink:label='mda_FeesOfIndependentAuditorsDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_FeesOfIndependentAuditorsDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_FeesOfIndependentAuditorsDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_FinancialConditionDiscussion' xlink:label='mda_FinancialConditionDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_FinancialConditionDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_FinancialConditionDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ForeignOperationsAndForeignCurrencyTransactionsDiscussion' xlink:label='mda_ForeignOperationsAndForeignCurrencyTransactionsDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ForeignOperationsAndForeignCurrencyTransactionsDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ForeignOperationsAndForeignCurrencyTransactionsDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ForwardLookingStatementsDiscussion' xlink:label='mda_ForwardLookingStatementsDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ForwardLookingStatementsDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ForwardLookingStatementsDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_GeneralOperationsDiscussion' xlink:label='mda_GeneralOperationsDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_30' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>303</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_GeneralOperationsDiscussion' xlink:to='ref_30' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ImpactOfInflationDiscussion' xlink:label='mda_ImpactOfInflationDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_31' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>303</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>3(iv)</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ImpactOfInflationDiscussion' xlink:to='ref_31' xlink:type='arc' />
+<reference xlink:label='ref_32' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>303</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>8</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ImpactOfInflationDiscussion' xlink:to='ref_32' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ImpairmentAndGoodwillDiscussion' xlink:label='mda_ImpairmentAndGoodwillDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ImpairmentAndGoodwillDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ImpairmentAndGoodwillDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_IncomeTaxesDiscussion' xlink:label='mda_IncomeTaxesDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_IncomeTaxesDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_IncomeTaxesDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_InvestmentsDiscussion' xlink:label='mda_InvestmentsDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_InvestmentsDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_InvestmentsDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_LiquidityCapitalResourcesCashOutlaysForIncomeTaxes' xlink:label='mda_LiquidityCapitalResourcesCashOutlaysForIncomeTaxes' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesCashOutlaysForIncomeTaxes' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesCashOutlaysForIncomeTaxes' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_LiquidityCapitalResourcesChangesInEarningsPerShare' xlink:label='mda_LiquidityCapitalResourcesChangesInEarningsPerShare' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesChangesInEarningsPerShare' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesChangesInEarningsPerShare' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_LiquidityCapitalResourcesDiscussion' xlink:label='mda_LiquidityCapitalResourcesDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesDiscussion' xlink:to='ref_30' xlink:type='arc' />
+<reference xlink:label='ref_33' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>303</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>2</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesDiscussion' xlink:to='ref_33' xlink:type='arc' />
+<reference xlink:label='ref_34' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>303</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>5</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesDiscussion' xlink:to='ref_34' xlink:type='arc' />
+<reference xlink:label='ref_35' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>303</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>6</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesDiscussion' xlink:to='ref_35' xlink:type='arc' />
+<reference xlink:label='ref_36' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Staff Accounting Bulletin (SAB)</ref:Name>
+<ref:Number>Topic 5</ref:Number>
+<ref:Section>J</ref:Section>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesDiscussion' xlink:to='ref_36' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_LiquidityCapitalResourcesHighYieldOrHighlyLeveragedTransactions' xlink:label='mda_LiquidityCapitalResourcesHighYieldOrHighlyLeveragedTransactions' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesHighYieldOrHighlyLeveragedTransactions' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesHighYieldOrHighlyLeveragedTransactions' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_LiquidityCapitalResourcesLeveragedEmployeesStockOwnershipPlans' xlink:label='mda_LiquidityCapitalResourcesLeveragedEmployeesStockOwnershipPlans' xlink:type='locator' />
+<reference xlink:label='ref_37' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Emerging Issues Task Force (EITF)</ref:Name>
+<ref:Number>89-8</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LiquidityCapitalResourcesLeveragedEmployeesStockOwnershipPlans' xlink:to='ref_37' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_LoansDiscussion' xlink:label='mda_LoansDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LoansDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_LoansDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ManagementInformationDiscussion' xlink:label='mda_ManagementInformationDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_38' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation 14A</ref:Name>
+<ref:Number>240</ref:Number>
+<ref:Section>14a</ref:Section>
+<ref:Paragraph>b</ref:Paragraph>
+<ref:Subparagraph>8</ref:Subparagraph>
+<ref:Subsection>3</ref:Subsection>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ManagementInformationDiscussion' xlink:to='ref_38' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ManagementsDiscussionAndAnalysisTextBlock' xlink:label='mda_ManagementsDiscussionAndAnalysisTextBlock' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ManagementsDiscussionAndAnalysisTextBlock' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ManagementsDiscussionAndAnalysisTextBlock' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_MaterialChangesDiscussion' xlink:label='mda_MaterialChangesDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_39' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>303</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>4</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_MaterialChangesDiscussion' xlink:to='ref_39' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_NetInterestIncomeDiscussion' xlink:label='mda_NetInterestIncomeDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_NetInterestIncomeDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_NetInterestIncomeDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_NoninterestExpenseDiscussion' xlink:label='mda_NoninterestExpenseDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_NoninterestExpenseDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_NoninterestExpenseDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_NoninterestIncomeDiscussion' xlink:label='mda_NoninterestIncomeDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_NoninterestIncomeDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_NoninterestIncomeDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_NonperformingAssetsDiscussion' xlink:label='mda_NonperformingAssetsDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_NonperformingAssetsDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_NonperformingAssetsDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_ProductDevelopmentDiscussion' xlink:label='mda_ProductDevelopmentDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_40' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Emerging Issues Task Force (EITF)</ref:Name>
+<ref:Number>99-5</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ProductDevelopmentDiscussion' xlink:to='ref_40' xlink:type='arc' />
+<reference xlink:label='ref_41' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>2</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ProductDevelopmentDiscussion' xlink:to='ref_41' xlink:type='arc' />
+<reference xlink:label='ref_42' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>68</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_ProductDevelopmentDiscussion' xlink:to='ref_42' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskDiscussion' xlink:label='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_43' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation 14A</ref:Name>
+<ref:Number>240</ref:Number>
+<ref:Section>14a</ref:Section>
+<ref:Paragraph>b</ref:Paragraph>
+<ref:Subparagraph>5</ref:Subparagraph>
+<ref:Subsection>3</ref:Subsection>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskDiscussion' xlink:to='ref_43' xlink:type='arc' />
+<reference xlink:label='ref_44' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>305</ref:Section>
+<ref:Paragraph>a, b</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskDiscussion' xlink:to='ref_44' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskQualitativeDisclosures' xlink:label='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskQualitativeDisclosures' xlink:type='locator' />
+<reference xlink:label='ref_45' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>305</ref:Section>
+<ref:Paragraph>b</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskQualitativeDisclosures' xlink:to='ref_45' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskQuantitativeDisclosuresGeneral' xlink:label='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskQuantitativeDisclosuresGeneral' xlink:type='locator' />
+<reference xlink:label='ref_46' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>305</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>1</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskQuantitativeDisclosuresGeneral' xlink:to='ref_46' xlink:type='arc' />
+<reference xlink:label='ref_47' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>305</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>3</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskQuantitativeDisclosuresGeneral' xlink:to='ref_47' xlink:type='arc' />
+<reference xlink:label='ref_48' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>305</ref:Section>
+<ref:Paragraph>a</ref:Paragraph>
+<ref:Subparagraph>4</ref:Subparagraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskQuantitativeDisclosuresGeneral' xlink:to='ref_48' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskSensitivityAnalysis' xlink:label='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskSensitivityAnalysis' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskSensitivityAnalysis' xlink:to='ref_46' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskTabularPresentation' xlink:label='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskTabularPresentation' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskTabularPresentation' xlink:to='ref_46' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskValueAtRisk' xlink:label='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskValueAtRisk' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_QuantitativeAndQualitativeDisclosuresAboutMarketRiskValueAtRisk' xlink:to='ref_46' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_RestructuringChargesDiscussion' xlink:label='mda_RestructuringChargesDiscussion' xlink:type='locator' />
+<reference xlink:label='ref_49' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Emerging Issues Task Force (EITF)</ref:Name>
+<ref:Number>94-3</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesDiscussion' xlink:to='ref_49' xlink:type='arc' />
+<reference xlink:label='ref_50' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Emerging Issues Task Force (EITF)</ref:Name>
+<ref:Number>95-3</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesDiscussion' xlink:to='ref_50' xlink:type='arc' />
+<reference xlink:label='ref_51' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>146</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesDiscussion' xlink:to='ref_51' xlink:type='arc' />
+<reference xlink:label='ref_52' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>15</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesDiscussion' xlink:to='ref_52' xlink:type='arc' />
+<reference xlink:label='ref_53' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Staff Accounting Bulletin (SAB)</ref:Name>
+<ref:Number>Topic 5</ref:Number>
+<ref:Section>P</ref:Section>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesDiscussion' xlink:to='ref_53' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_RestructuringChargesMaterialRestructuringCharges' xlink:label='mda_RestructuringChargesMaterialRestructuringCharges' xlink:type='locator' />
+<reference xlink:label='ref_54' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Staff Accounting Bulletin (SAB)</ref:Name>
+<ref:Number>Topic 5</ref:Number>
+<ref:Section>P</ref:Section>
+<ref:Paragraph>4</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesMaterialRestructuringCharges' xlink:to='ref_54' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_RestructuringChargesNatureAndAmountsOfExitCosts' xlink:label='mda_RestructuringChargesNatureAndAmountsOfExitCosts' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesNatureAndAmountsOfExitCosts' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesNatureAndAmountsOfExitCosts' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_RestructuringChargesPriorPeriodRestructuringCharges' xlink:label='mda_RestructuringChargesPriorPeriodRestructuringCharges' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesPriorPeriodRestructuringCharges' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesPriorPeriodRestructuringCharges' xlink:to='ref_5' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RestructuringChargesPriorPeriodRestructuringCharges' xlink:to='ref_54' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_RevenueDiscussion' xlink:label='mda_RevenueDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RevenueDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RevenueDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_RevenueRecognitionDiscussion' xlink:label='mda_RevenueRecognitionDiscussion' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RevenueRecognitionDiscussion' xlink:to='ref_1' xlink:type='arc' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_RevenueRecognitionDiscussion' xlink:to='ref_5' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_SelectedFinancialData' xlink:label='mda_SelectedFinancialData' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_SelectedFinancialData' xlink:to='ref_43' xlink:type='arc' />
+<reference xlink:label='ref_55' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>SEC</ref:Publisher>
+<ref:Name>Regulation S-K (SK)</ref:Name>
+<ref:Number>229</ref:Number>
+<ref:Section>301</ref:Section>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_SelectedFinancialData' xlink:to='ref_55' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_SelectedFinancialDataMattersAffectingComparability' xlink:label='mda_SelectedFinancialDataMattersAffectingComparability' xlink:type='locator' />
+<reference xlink:label='ref_56' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>109</ref:Number>
+<ref:Paragraph>47</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_SelectedFinancialDataMattersAffectingComparability' xlink:to='ref_56' xlink:type='arc' />
+<reference xlink:label='ref_57' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>132</ref:Number>
+<ref:Paragraph>9</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_SelectedFinancialDataMattersAffectingComparability' xlink:to='ref_57' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_SelectedFinancialDataProFormaInformationForAccountingChange' xlink:label='mda_SelectedFinancialDataProFormaInformationForAccountingChange' xlink:type='locator' />
+<reference xlink:label='ref_58' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>AICPA</ref:Publisher>
+<ref:Name>Accounting Principles Board Opinion (APB)</ref:Name>
+<ref:Number>20</ref:Number>
+<ref:Paragraph>26</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_SelectedFinancialDataProFormaInformationForAccountingChange' xlink:to='ref_58' xlink:type='arc' />
+<loc xlink:href='mda-2008-03-31.xsd#mda_SignificantAccountingPoliciesAndAssumptions' xlink:label='mda_SignificantAccountingPoliciesAndAssumptions' xlink:type='locator' />
+<reference xlink:label='ref_59' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>AICPA</ref:Publisher>
+<ref:Name>Accounting Principles Board Opinion (APB)</ref:Name>
+<ref:Number>22</ref:Number>
+<ref:Paragraph>12</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_SignificantAccountingPoliciesAndAssumptions' xlink:to='ref_59' xlink:type='arc' />
+<reference xlink:label='ref_60' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>AICPA</ref:Publisher>
+<ref:Name>Accounting Principles Board Opinion (APB)</ref:Name>
+<ref:Number>22</ref:Number>
+<ref:Paragraph>8</ref:Paragraph>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_SignificantAccountingPoliciesAndAssumptions' xlink:to='ref_60' xlink:type='arc' />
+<reference xlink:label='ref_61' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'>
+<ref:Publisher>FASB</ref:Publisher>
+<ref:Name>Statement of Financial Accounting Standard (FAS)</ref:Name>
+<ref:Number>148</ref:Number>
+</reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='mda_SignificantAccountingPoliciesAndAssumptions' xlink:to='ref_61' xlink:type='arc' />
+</referenceLink>
+</linkbase>

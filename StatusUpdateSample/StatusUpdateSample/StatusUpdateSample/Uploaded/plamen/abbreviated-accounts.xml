@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="../stylesheet/CH-AE-stylesheet.xsl" ?>
+
+<xbrl xmlns='http://www.xbrl.org/2003/instance' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ae='http://www.companieshouse.gov.uk/ef/xbrl/uk/fr/gaap/ae/2009-06-21' xmlns:gc='http://www.xbrl.org/uk/fr/gcd/2004-12-01' xmlns:html='http://www.w3.org/1999/xhtml' xmlns:iso4217='http://www.xbrl.org/2003/iso4217' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:pt='http://www.xbrl.org/uk/fr/gaap/pt/2004-12-01' xmlns:xbrli='http://www.xbrl.org/2003/instance' xmlns:xlink='http://www.w3.org/1999/xlink'>
+  <link:schemaRef xlink:href='http://www.companieshouse.gov.uk/ef/xbrl/uk/fr/gaap/ae/2009-06-21/uk-gaap-ae-2009-06-21.xsd' xlink:type='simple' />
+  <ae:CompanyNotDormant contextRef='y2003'>true</ae:CompanyNotDormant>
+  <ae:CompaniesHouseRegisteredNumber contextRef='y2003'>123456</ae:CompaniesHouseRegisteredNumber>
+  <ae:CompaniesHouseDocumentAuthentication contextRef='y2003'>ABCDEF</ae:CompaniesHouseDocumentAuthentication>
+  <gc:EntityNames>
+    <gc:EntityCurrentLegalName contextRef='y2003'>No-Energy Ltd</gc:EntityCurrentLegalName>
+  </gc:EntityNames>
+  <gc:BalanceSheetDate contextRef='e2003'>2003-10-31</gc:BalanceSheetDate>
+  <ae:DateAccountsReceived contextRef='e2003'>2005-11-13</ae:DateAccountsReceived>
+  <ae:ReportingAccountants>
+    <ae:NameAccountants contextRef='y2003'>A N Accountant</ae:NameAccountants>
+    <ae:DescriptionAccountants contextRef='y2003'>Chartered Accountants</ae:DescriptionAccountants>
+    <ae:AddressCH>
+      <gc:AddressLine1 contextRef='y2003'>High Street</gc:AddressLine1>
+      <gc:CityOrTown contextRef='y2003'>London</gc:CityOrTown>
+      <gc:Postcode contextRef='y2003'>SA11 2JU</gc:Postcode>
+    </ae:AddressCH>
+  </ae:ReportingAccountants>
+  <pt:TangibleFixedAssets precision='INF' id='s2-1' contextRef='e2003' unitRef='GBP'>7964</pt:TangibleFixedAssets>
+  <pt:TangibleFixedAssets precision='INF' id='s2-2' contextRef='e2002' unitRef='GBP'>9054</pt:TangibleFixedAssets>
+  <pt:TotalInvestmentsFixedAssets precision='INF' contextRef='e2003' unitRef='GBP'>0</pt:TotalInvestmentsFixedAssets>
+  <pt:TotalInvestmentsFixedAssets precision='INF' contextRef='e2002' unitRef='GBP'>0</pt:TotalInvestmentsFixedAssets>
+  <pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset precision='INF' contextRef='e2003' unitRef='GBP'>100</pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset>
+  <pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset precision='INF' contextRef='e2002' unitRef='GBP'>100</pt:CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset>
+  <pt:FixedAssets precision='INF' contextRef='e2003' unitRef='GBP'>8714</pt:FixedAssets>
+  <pt:FixedAssets precision='INF' contextRef='e2002' unitRef='GBP'>9954</pt:FixedAssets>
+  <pt:Debtors precision='INF' id='s3-1' contextRef='e2003' unitRef='GBP'>3767</pt:Debtors>
+  <pt:Debtors precision='INF' id='s3-2' contextRef='e2002' unitRef='GBP'>2685</pt:Debtors>
+  <pt:StocksInventory precision='INF' contextRef='e2003' unitRef='GBP'>694</pt:StocksInventory>
+  <pt:StocksInventory precision='INF' contextRef='e2002' unitRef='GBP'>543</pt:StocksInventory>
+  <pt:CashBankInHand precision='INF' contextRef='e2003' unitRef='GBP'>1822</pt:CashBankInHand>
+  <pt:CashBankInHand precision='INF' contextRef='e2002' unitRef='GBP'>1593</pt:CashBankInHand>
+  <pt:CurrentAssets precision='INF' contextRef='e2003' unitRef='GBP'>6283</pt:CurrentAssets>
+  <pt:CurrentAssets precision='INF' contextRef='e2002' unitRef='GBP'>4821</pt:CurrentAssets>
+  <pt:NetCurrentAssetsLiabilities precision='INF' contextRef='e2003' unitRef='GBP'>3318</pt:NetCurrentAssetsLiabilities>
+  <pt:NetCurrentAssetsLiabilities precision='INF' contextRef='e2002' unitRef='GBP'>2365</pt:NetCurrentAssetsLiabilities>
+  <pt:TotalAssetsLessCurrentLiabilities precision='INF' contextRef='e2003' unitRef='GBP'>12132</pt:TotalAssetsLessCurrentLiabilities>
+  <pt:TotalAssetsLessCurrentLiabilities precision='INF' contextRef='e2002' unitRef='GBP'>12419</pt:TotalAssetsLessCurrentLiabilities>
+  <pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities precision='INF' id='s5-1' contextRef='e2003' unitRef='GBP'>4775</pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities>
+  <pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities precision='INF' id='s5-2' contextRef='e2002' unitRef='GBP'>5550</pt:CreditorsDueAfterOneYearTotalNoncurrentLiabilities>
+  <pt:ProvisionsForLiabilitiesCharges precision='INF' contextRef='e2003' unitRef='GBP'>225</pt:ProvisionsForLiabilitiesCharges>
+  <pt:ProvisionsForLiabilitiesCharges precision='INF' contextRef='e2002' unitRef='GBP'>225</pt:ProvisionsForLiabilitiesCharges>
+  <pt:NetAssetsLiabilitiesIncludingPensionAssetLiability precision='INF' contextRef='e2003' unitRef='GBP'>7132</pt:NetAssetsLiabilitiesIncludingPensionAssetLiability>
+  <pt:NetAssetsLiabilitiesIncludingPensionAssetLiability precision='INF' contextRef='e2002' unitRef='GBP'>6644</pt:NetAssetsLiabilitiesIncludingPensionAssetLiability>
+  <pt:CalledUpShareCapital precision='INF' id='s6-1' contextRef='e2003' unitRef='GBP'>100</pt:CalledUpShareCapital>
+  <pt:CalledUpShareCapital precision='INF' id='s6-2' contextRef='e2002' unitRef='GBP'>100</pt:CalledUpShareCapital>
+  <pt:SharePremiumAccount precision='INF' contextRef='e2003' unitRef='GBP'>100</pt:SharePremiumAccount>
+  <pt:SharePremiumAccount precision='INF' contextRef='e2002' unitRef='GBP'>100</pt:SharePremiumAccount>
+  <pt:RevaluationReserve precision='INF' contextRef='e2003' unitRef='GBP'>500</pt:RevaluationReserve>
+  <pt:RevaluationReserve precision='INF' contextRef='e2002' unitRef='GBP'>0</pt:RevaluationReserve>
+  <pt:ShareholderFunds precision='INF' contextRef='e2003' unitRef='GBP'>7132</pt:ShareholderFunds>
+  <pt:ShareholderFunds precision='INF' contextRef='e2002' unitRef='GBP'>6644</pt:ShareholderFunds>
+  <ae:CompanyEntitledToExemptionUnderSection249A1CompaniesAct1985 contextRef='y2003'>true</ae:CompanyEntitledToExemptionUnderSection249A1CompaniesAct1985>
+  <ae:MembersHaveNotRequiredCompanyToObtainAnAudit contextRef='y2003'>true</ae:MembersHaveNotRequiredCompanyToObtainAnAudit>
+  <ae:DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct contextRef='y2003'>true</ae:DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct>
+  <ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies contextRef='y2003'>true</ae:AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies>
+  <pt:DateApproval contextRef='e2003'>2004-08-11</pt:DateApproval>
+  <pt:ApprovalDetails>
+    <pt:NameApprovingDirector contextRef='y2003'>G Rich</pt:NameApprovingDirector>
+  </pt:ApprovalDetails>
+  <pt:AdditionalApprovingPerson>
+    <pt:NameAdditionalApprovingPerson contextRef='y2003'>A N Other</pt:NameAdditionalApprovingPerson>
+    <pt:PositionAdditionalApprovingPerson contextRef='y2003'>Secretary</pt:PositionAdditionalApprovingPerson>
+  </pt:AdditionalApprovingPerson>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='e2003' unitRef='GBP'>6432</pt:ProfitLossAccountReserve>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='e2002' unitRef='GBP'>6444</pt:ProfitLossAccountReserve>
+  <pt:ProfitLossAccountReserve precision='INF' contextRef='s2002' unitRef='GBP'>5360</pt:ProfitLossAccountReserve>
+  <ae:AccountsPreparedUnderHistoricalCostConventionInAccordanceWithFRSE contextRef='y2003'>true</ae:AccountsPreparedUnderHistoricalCostConventionInAccordanceWithFRSE>
+  <ae:AccountingPolicy>
+    <ae:TitleAccountingPolicy contextRef='y2003'>Turnover</ae:TitleAccountingPolicy>
+    <ae:ContentAccountingPolicy contextRef='y2003'>Turnover represents the invoiced value of goods and services supplied by the company, net of VAT and trade discounts.</ae:ContentAccountingPolicy>
+  </ae:AccountingPolicy>
+  <ae:AccountingPolicy>
+    <ae:TitleAccountingPolicy contextRef='y2003'>Stocks</ae:TitleAccountingPolicy>
+    <ae:ContentAccountingPolicy contextRef='y2003'>Stock is valued at the lower of cost and net realisable value</ae:ContentAccountingPolicy>
+  </ae:AccountingPolicy>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Land &amp; Buildings</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.1</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Furniture</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.2</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Computer Equipment</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.2</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Communications Equipment</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.2</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DepreciationRate>
+    <ae:CategoryItem contextRef='y2003'>Motor Vehicles</ae:CategoryItem>
+    <ae:TypeDepreciation contextRef='y2003'>straight line</ae:TypeDepreciation>
+    <ae:RateDepreciation precision='INF' contextRef='y2003' unitRef='pure'>0.25</ae:RateDepreciation>
+  </ae:DepreciationRate>
+  <ae:DirectorShareholding>
+    <pt:DirectorOrExecutivesName contextRef='y2003'>G Rich</pt:DirectorOrExecutivesName>
+    <ae:Shareholding>
+      <pt:DescriptionSharesOrDebentures contextRef='y2003'>&#163;1 Ordinary shares</pt:DescriptionSharesOrDebentures>
+      <pt:SharesDirectorOrExecutive precision='INF' contextRef='e2003' unitRef='shares'>50</pt:SharesDirectorOrExecutive>
+    </ae:Shareholding>
+    <ae:Shareholding>
+      <pt:DescriptionSharesOrDebentures contextRef='y2002'>&#163;1 Ordinary shares</pt:DescriptionSharesOrDebentures>
+      <pt:SharesDirectorOrExecutive precision='INF' contextRef='e2002' unitRef='shares'>50</pt:SharesDirectorOrExecutive>
+    </ae:Shareholding>
+  </ae:DirectorShareholding>
+  <pt:EquityAuthorisedDetails>
+    <pt:TypeOrdinaryShare contextRef='y2003'>A shares</pt:TypeOrdinaryShare>
+    <pt:NumberOrdinarySharesAuthorised precision='INF' contextRef='e2003' unitRef='shares'>1000</pt:NumberOrdinarySharesAuthorised>
+    <pt:ParValueOrdinaryShare precision='INF' contextRef='y2003' unitRef='GBP'>1</pt:ParValueOrdinaryShare>
+    <pt:ValueOrdinarySharesAuthorised precision='INF' contextRef='e2003' unitRef='GBP'>1000</pt:ValueOrdinarySharesAuthorised>
+    <pt:ValueOrdinarySharesAuthorised precision='INF' contextRef='e2002' unitRef='GBP'>1000</pt:ValueOrdinarySharesAuthorised>
+  </pt:EquityAuthorisedDetails>
+  <pt:DetailsOrdinarySharesAllotted>
+    <pt:TypeOrdinaryShare contextRef='y2003'>A shares</pt:TypeOrdinaryShare>
+    <pt:ParValueOrdinaryShare precision='INF' contextRef='y2003' unitRef='GBP'>1</pt:ParValueOrdinaryShare>
+    <pt:ValueOrdinarySharesAllotted precision='INF' contextRef='e2003' unitRef='GBP'>100</pt:ValueOrdinarySharesAllotted>
+    <pt:ValueOrdinarySharesAllotted precision='INF' contextRef='e2002' unitRef='GBP'>50</pt:ValueOrdinarySharesAllotted>
+    <pt:NumberOrdinarySharesAllotted precision='INF' contextRef='e2003' unitRef='shares'>100</pt:NumberOrdinarySharesAllotted>
+  </pt:DetailsOrdinarySharesAllotted>
+<!-- Creditors: amounts falling due within one year -->
+  <pt:BankLoansOverdraftsWithinOneYear precision='INF' contextRef='e2003' unitRef='GBP'>1256</pt:BankLoansOverdraftsWithinOneYear>
+  <pt:BankLoansOverdraftsWithinOneYear precision='INF' contextRef='e2002' unitRef='GBP'>1444</pt:BankLoansOverdraftsWithinOneYear>
+  <pt:TradeCreditorsWithinOneYear precision='INF' contextRef='e2003' unitRef='GBP'>1341</pt:TradeCreditorsWithinOneYear>
+  <pt:TradeCreditorsWithinOneYear precision='INF' contextRef='e2002' unitRef='GBP'>688</pt:TradeCreditorsWithinOneYear>
+  <pt:TaxationSocialSecurityDueWithinOneYear precision='INF' contextRef='e2003' unitRef='GBP'>368</pt:TaxationSocialSecurityDueWithinOneYear>
+  <pt:TaxationSocialSecurityDueWithinOneYear precision='INF' contextRef='e2002' unitRef='GBP'>324</pt:TaxationSocialSecurityDueWithinOneYear>
+  <pt:CreditorsDueWithinOneYearTotalCurrentLiabilities precision='INF' contextRef='e2003' unitRef='GBP'>2965</pt:CreditorsDueWithinOneYearTotalCurrentLiabilities>
+  <pt:CreditorsDueWithinOneYearTotalCurrentLiabilities precision='INF' contextRef='e2002' unitRef='GBP'>2456</pt:CreditorsDueWithinOneYearTotalCurrentLiabilities>
+  <ae:CreditorsDueWithinOneYearFreeTextNote contextRef='e2003'>Creditors Due Within One Year Free Text Note</ae:CreditorsDueWithinOneYearFreeTextNote>
+<!-- ~Creditors: amounts falling due within one year -->
+<!-- Creditors due after 12 months -->
+  <pt:BankLoansOverdraftsAfterOneYear precision='INF' contextRef='e2003' unitRef='GBP'>2610</pt:BankLoansOverdraftsAfterOneYear>
+  <pt:BankLoansOverdraftsAfterOneYear precision='INF' contextRef='e2002' unitRef='GBP'>2835</pt:BankLoansOverdraftsAfterOneYear>
+  <pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear precision='INF' contextRef='e2003' unitRef='GBP'>2165</pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear>
+  <pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear precision='INF' contextRef='e2002' unitRef='GBP'>2715</pt:ObligationsUnderFinanceLeaseHirePurchaseContractsAfterOneYear>
+  <ae:CreditorsDueAfterOneYearFreeTextNote contextRef='e2003'>Creditors Due After One Year Free Text Note</ae:CreditorsDueAfterOneYearFreeTextNote>
+<!-- ~Creditors due after 12 months -->
+<!-- Tangible Fixed Assets -->
+<!-- Land/Buildings -->
+  <pt:LandBuildingsCostOrValuation precision='INF' contextRef='e2002' unitRef='GBP'>1000</pt:LandBuildingsCostOrValuation>
+  <pt:LandBuildingsAdditions precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:LandBuildingsAdditions>
+  <pt:LandBuildingsDisposals precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:LandBuildingsDisposals>
+  <pt:LandBuildingsIncreaseDecreaseFromRevaluations precision='INF' contextRef='y2003' unitRef='GBP'>500</pt:LandBuildingsIncreaseDecreaseFromRevaluations>
+  <pt:LandBuildingsIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:LandBuildingsIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:LandBuildingsCostOrValuation precision='INF' contextRef='e2003' unitRef='GBP'>1500</pt:LandBuildingsCostOrValuation>
+  <pt:LandBuildingsDepreciation precision='INF' contextRef='e2002' unitRef='GBP'>100</pt:LandBuildingsDepreciation>
+  <pt:LandBuildingsDepreciationChargeForPeriod precision='INF' contextRef='y2003' unitRef='GBP'>100</pt:LandBuildingsDepreciationChargeForPeriod>
+  <pt:LandBuildingsDepreciationDisposals precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:LandBuildingsDepreciationDisposals>
+  <pt:LandBuildingsDepreciation precision='INF' contextRef='e2003' unitRef='GBP'>200</pt:LandBuildingsDepreciation>
+<!-- ~Land/Buildings -->
+<!-- Plant/Machinery -->
+  <pt:PlantMachineryCostOrValuation precision='INF' contextRef='e2002' unitRef='GBP'>10041</pt:PlantMachineryCostOrValuation>
+  <pt:PlantMachineryAdditions precision='INF' contextRef='y2003' unitRef='GBP'>769</pt:PlantMachineryAdditions>
+  <pt:PlantMachineryDisposals precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:PlantMachineryDisposals>
+  <pt:PlantMachineryIncreaseDecreaseFromRevaluations precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:PlantMachineryIncreaseDecreaseFromRevaluations>
+  <pt:PlantMachineryIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:PlantMachineryIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:PlantMachineryCostOrValuation precision='INF' contextRef='e2003' unitRef='GBP'>10810</pt:PlantMachineryCostOrValuation>
+  <pt:PlantMachineryDepreciation precision='INF' contextRef='e2002' unitRef='GBP'>1887</pt:PlantMachineryDepreciation>
+  <pt:PlantMachineryDepreciationChargeForPeriod precision='INF' contextRef='y2003' unitRef='GBP'>2259</pt:PlantMachineryDepreciationChargeForPeriod>
+  <pt:PlantMachineryDepreciationDisposals precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:PlantMachineryDepreciationDisposals>
+  <pt:PlantMachineryDepreciation precision='INF' contextRef='e2003' unitRef='GBP'>4146</pt:PlantMachineryDepreciation>
+<!-- ~Plant/Machinery -->
+<!-- Totals -->
+  <pt:LandBuildings precision='INF' contextRef='e2002' unitRef='GBP'>900</pt:LandBuildings>
+  <pt:LandBuildings precision='INF' contextRef='e2003' unitRef='GBP'>1300</pt:LandBuildings>
+  <pt:PlantMachinery precision='INF' contextRef='e2002' unitRef='GBP'>8154</pt:PlantMachinery>
+  <pt:PlantMachinery precision='INF' contextRef='e2003' unitRef='GBP'>6664</pt:PlantMachinery>
+<!-- ~Totals -->
+  <pt:TangibleFixedAssetsCostOrValuation precision='INF' contextRef='e2002' unitRef='GBP'>11041</pt:TangibleFixedAssetsCostOrValuation>
+  <pt:TangibleFixedAssetsAdditions precision='INF' contextRef='y2003' unitRef='GBP'>769</pt:TangibleFixedAssetsAdditions>
+  <pt:TangibleFixedAssetsDisposals precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:TangibleFixedAssetsDisposals>
+  <pt:TangibleFixedAssetsIncreaseDecreaseFromRevaluations precision='INF' contextRef='y2003' unitRef='GBP'>500</pt:TangibleFixedAssetsIncreaseDecreaseFromRevaluations>
+  <pt:TangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:TangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:TangibleFixedAssetsCostOrValuation precision='INF' contextRef='e2003' unitRef='GBP'>12310</pt:TangibleFixedAssetsCostOrValuation>
+  <pt:TangibleFixedAssetsDepreciation precision='INF' contextRef='e2002' unitRef='GBP'>1987</pt:TangibleFixedAssetsDepreciation>
+  <pt:TangibleFixedAssetsDepreciationChargeForPeriod precision='INF' contextRef='y2003' unitRef='GBP'>2359</pt:TangibleFixedAssetsDepreciationChargeForPeriod>
+  <pt:TangibleFixedAssetsDepreciationDisposals precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:TangibleFixedAssetsDepreciationDisposals>
+  <pt:TangibleFixedAssetsDepreciation precision='INF' contextRef='e2003' unitRef='GBP'>4346</pt:TangibleFixedAssetsDepreciation>
+  <ae:TangibleAssetsFreeTextNote contextRef='e2003'>Tangible Assets Free Text Note</ae:TangibleAssetsFreeTextNote>
+<!-- ~Tangible Fixed Assets -->
+<!-- Intangible Fixed Assets -->
+  <pt:IntangibleFixedAssetsCostOrValuation precision='INF' contextRef='e2002' unitRef='GBP'>1195</pt:IntangibleFixedAssetsCostOrValuation>
+  <pt:IntangibleFixedAssetsCostOrValuation precision='INF' contextRef='e2003' unitRef='GBP'>1195</pt:IntangibleFixedAssetsCostOrValuation>
+  <pt:IntangibleFixedAssetsAdditions precision='INF' contextRef='y2003' unitRef='GBP'>100</pt:IntangibleFixedAssetsAdditions>
+  <pt:IntangibleFixedAssetsDisposals precision='INF' contextRef='y2003' unitRef='GBP'>200</pt:IntangibleFixedAssetsDisposals>
+  <ae:IntangibleFixedAssetsRevaluation precision='INF' contextRef='y2003' unitRef='GBP'>100</ae:IntangibleFixedAssetsRevaluation>
+  <pt:IntangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems precision='INF' contextRef='y2003' unitRef='GBP'>0</pt:IntangibleFixedAssetsIncreaseDecreaseFromTransfersBetweenItems>
+  <pt:IntangibleFixedAssets precision='INF' contextRef='e2002' unitRef='GBP'>900</pt:IntangibleFixedAssets>
+  <pt:IntangibleFixedAssets precision='INF' contextRef='e2003' unitRef='GBP'>750</pt:IntangibleFixedAssets>
+  <pt:IntangibleFixedAssetsAggregateAmortisationImpairment precision='INF' contextRef='e2002' unitRef='GBP'>295</pt:IntangibleFixedAssetsAggregateAmortisationImpairment>
+  <pt:IntangibleFixedAssetsAmortisationChargedInPeriod precision='INF' contextRef='y2003' unitRef='GBP'>200</pt:IntangibleFixedAssetsAmortisationChargedInPeriod>
+  <pt:IntangibleFixedAssetsAmortisationOnDisposals precision='INF' contextRef='y2003' unitRef='GBP'>50</pt:IntangibleFixedAssetsAmortisationOnDisposals>
+  <pt:IntangibleFixedAssetsAggregateAmortisationImpairment precision='INF' contextRef='e2003' unitRef='GBP'>445</pt:IntangibleFixedAssetsAggregateAmortisationImpairment>
+  <ae:IntangibleAssetsFreeTextNote contextRef='e2003'>Intangible Assets Free Text Note</ae:IntangibleAssetsFreeTextNote>
+<!-- ~Intangible Fixed Assets -->
+  <unit id='shares'>
+    <measure>xbrli:shares</measure>
+  </unit>
+  <unit id='GBP'>
+    <measure>iso4217:GBP</measure>
+  </unit>
+  <unit id='pure'>
+    <measure>xbrli:pure</measure>
+  </unit>
+  <context id='y2003'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <startDate>2002-11-01</startDate>
+      <endDate>2003-10-31</endDate>
+    </period>
+  </context>
+  <context id='y2002'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <startDate>2001-11-01</startDate>
+      <endDate>2002-10-31</endDate>
+    </period>
+  </context>
+  <context id='s2002'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2001-10-31</instant>
+    </period>
+  </context>
+  <context id='e2002'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2002-10-31</instant>
+    </period>
+  </context>
+  <context id='e2003'>
+    <entity>
+      <identifier scheme='no-energy/results'>No Energy Ltd</identifier>
+    </entity>
+    <period>
+      <instant>2003-10-31</instant>
+    </period>
+  </context>
+</xbrl>

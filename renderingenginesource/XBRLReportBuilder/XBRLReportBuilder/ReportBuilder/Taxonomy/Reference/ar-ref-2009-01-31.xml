@@ -1,0 +1,21 @@
+<linkbase xmlns='http://www.xbrl.org/2003/linkbase' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://www.xbrl.org/2006/ref http://www.xbrl.org/2006/ref-2006-02-27.xsd'>
+<referenceLink xlink:role='http://www.xbrl.org/2003/role/link' xlink:type='extended'>
+<loc xlink:href='ar-2009-01-31.xsd#ar_Addressee' xlink:label='ar_Addressee' xlink:type='locator' />
+<reference xlink:label='ref_0' xlink:role='http://www.xbrl.org/2003/role/presentationRef' xlink:type='resource'></reference>
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ar_Addressee' xlink:to='ref_0' xlink:type='arc' />
+<loc xlink:href='ar-2009-01-31.xsd#ar_AuditorReport' xlink:label='ar_AuditorReport' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ar_AuditorReport' xlink:to='ref_0' xlink:type='arc' />
+<loc xlink:href='ar-2009-01-31.xsd#ar_AuditorSignature' xlink:label='ar_AuditorSignature' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ar_AuditorSignature' xlink:to='ref_0' xlink:type='arc' />
+<loc xlink:href='ar-2009-01-31.xsd#ar_AuditorsReportTable' xlink:label='ar_AuditorsReportTable' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ar_AuditorsReportTable' xlink:to='ref_0' xlink:type='arc' />
+<loc xlink:href='ar-2009-01-31.xsd#ar_AuditorsReportTextBlock' xlink:label='ar_AuditorsReportTextBlock' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ar_AuditorsReportTextBlock' xlink:to='ref_0' xlink:type='arc' />
+<loc xlink:href='ar-2009-01-31.xsd#ar_DualDate' xlink:label='ar_DualDate' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ar_DualDate' xlink:to='ref_0' xlink:type='arc' />
+<loc xlink:href='ar-2009-01-31.xsd#ar_ReportDate' xlink:label='ar_ReportDate' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ar_ReportDate' xlink:to='ref_0' xlink:type='arc' />
+<loc xlink:href='ar-2009-01-31.xsd#ar_TitleOfReport' xlink:label='ar_TitleOfReport' xlink:type='locator' />
+<referenceArc order='1.0' xlink:arcrole='http://www.xbrl.org/2003/arcrole/concept-reference' xlink:from='ar_TitleOfReport' xlink:to='ref_0' xlink:type='arc' />
+</referenceLink>
+</linkbase>

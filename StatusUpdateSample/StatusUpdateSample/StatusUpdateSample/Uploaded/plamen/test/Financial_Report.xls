@@ -1,0 +1,218 @@
+﻿MIME-Version: 1.0
+X-Document-Type: Workbook
+Content-Type: multipart/related; boundary="----=_NextPart_205cd25c_524d_4950_a859_2aa55bed0295"
+
+This document is a Single File Web Page, also known as a Web Archive file.  If you are seeing this message, your browser or editor doesn't support Web Archive files.  Please download a browser that supports Web Archive, such as Microsoft Internet Explorer.
+
+------=_NextPart_205cd25c_524d_4950_a859_2aa55bed0295
+Content-Location: file:///C:/205cd25c_524d_4950_a859_2aa55bed0295/Workbook.html
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:x=3D"urn:schemas-microsoft-com:office:excel" xmlns=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta name=3D"Excel Workbook Frameset">
+
+<meta name=3DProgId content=3DExcel.Sheet>
+<link rel=3DFile-List href=3D"Worksheets/filelist.xml">
+
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Main_Information</x:Name>
+    <x:WorksheetSource HRef=3D"Worksheets/Sheet01.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>More_Information</x:Name>
+    <x:WorksheetSource HRef=3D"Worksheets/Sheet02.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Document_Information</x:Name>
+    <x:WorksheetSource HRef=3D"Worksheets/Sheet03.html"/>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:Stylesheet HRef=3D"Worksheets/report.css"/>
+  <x:ActiveSheet>0</x:ActiveSheet>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+  <body>
+   <p>This page should be opened with Microsoft Excel XP or newer.</p>
+  </body>
+</html>
+
+------=_NextPart_205cd25c_524d_4950_a859_2aa55bed0295
+Content-Location: file:///C:/205cd25c_524d_4950_a859_2aa55bed0295/Worksheets/Sheet01.html
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html>
+  <head>
+    <META http-equiv=3DContent-Type content=3D'text/html; charset=utf-8'><script type=3Dtext/javascript src=3DShow.js>/* Do Not Remove This Comment */</script></head>
+  <body>
+    <table class=3Dreport id=3DID0ELJAE>
+      <tr>
+        <th class=3Dtl colspan=3D1 rowspan=3D2><strong>Main Information (USD $)<br>In Millions, unless otherwise specified</strong></th>
+        <th class=3Dth colspan=3D3>12 Months Ended</th>
+      </tr>
+      <tr>
+        <th class=3Dth>Dec. 31, 2011<br></th>
+        <th class=3Dth>Dec. 31, 2010<br></th>
+        <th class=3Dth>Dec. 31, 2009<br></th>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop><strong>Top</strong></td>
+        <td class=3Dtext><span></span></td>
+        <td class=3Dtext><span></span></td>
+        <td class=3Dtext><span></span></td>
+      </tr>
+      <tr class=3Dro>
+        <td class=3Dpl valign=3Dtop>A</td>
+        <td class=3Dnump>$ 11<span></span></td>
+        <td class=3Dnump>$ 11,000<span></span></td>
+        <td class=3Dnump>$ 11<span></span></td>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop>B</td>
+        <td class=3Dnump>11<span></span></td>
+        <td class=3Dnump>1,000<span></span></td>
+        <td class=3Dnump>11<span></span></td>
+      </tr>
+      <tr class=3Dro>
+        <td class=3Dpl valign=3Dtop>C</td>
+        <td class=3Dnump>110<span></span></td>
+        <td class=3Dnump>11<span></span></td>
+        <td class=3Dtext><span></span></td>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop>F</td>
+        <td class=3Dnump>$ 154.1<span></span></td>
+        <td class=3Dnump>$ 12,023.1<span></span></td>
+        <td class=3Dnump>$ 1,133<span></span></td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+------=_NextPart_205cd25c_524d_4950_a859_2aa55bed0295
+Content-Location: file:///C:/205cd25c_524d_4950_a859_2aa55bed0295/Worksheets/Sheet02.html
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html>
+  <head>
+    <META http-equiv=3DContent-Type content=3D'text/html; charset=utf-8'><script type=3Dtext/javascript src=3DShow.js>/* Do Not Remove This Comment */</script></head>
+  <body>
+    <table class=3Dreport id=3DID0ELJAE>
+      <tr>
+        <th class=3Dtl colspan=3D1 rowspan=3D2><strong>More Information (USD $)<br></strong></th>
+        <th class=3Dth colspan=3D3>12 Months Ended</th>
+      </tr>
+      <tr>
+        <th class=3Dth>Dec. 31, 2011<br></th>
+        <th class=3Dth>Dec. 31, 2010<br></th>
+        <th class=3Dth>Dec. 31, 2009<br></th>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop><strong>Top</strong></td>
+        <td class=3Dtext><span></span></td>
+        <td class=3Dtext><span></span></td>
+        <td class=3Dtext><span></span></td>
+      </tr>
+      <tr class=3Dro>
+        <td class=3Dpl valign=3Dtop>A</td>
+        <td class=3Dnump>$ 11,000,000<span></span></td>
+        <td class=3Dnump>$ 11,000,000,000<span></span></td>
+        <td class=3Dnump>$ 11,000,000<span></span></td>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop>D</td>
+        <td class=3Dnump>11,100,000<span></span></td>
+        <td class=3Dnump>11,000,000<span></span></td>
+        <td class=3Dnump>1,100,000,000<span></span></td>
+      </tr>
+      <tr class=3Dro>
+        <td class=3Dpl valign=3Dtop>E</td>
+        <td class=3Dnump>11,000,000<span></span></td>
+        <td class=3Dnump>1,100,000<span></span></td>
+        <td class=3Dnump>11,000,000<span></span></td>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop>F</td>
+        <td class=3Dnump>$ 154,100,000<span></span></td>
+        <td class=3Dnump>$ 12,023,100,000<span></span></td>
+        <td class=3Dnump>$ 1,133,000,000<span></span></td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+------=_NextPart_205cd25c_524d_4950_a859_2aa55bed0295
+Content-Location: file:///C:/205cd25c_524d_4950_a859_2aa55bed0295/Worksheets/Sheet03.html
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<html>
+  <head>
+    <META http-equiv=3DContent-Type content=3D'text/html; charset=utf-8'><script type=3Dtext/javascript src=3DShow.js>/* Do Not Remove This Comment */</script></head>
+  <body>
+    <table class=3Dreport id=3DID0EIBAE>
+      <tr>
+        <th class=3Dtl colspan=3D1 rowspan=3D2><strong>Document Information<br></strong></th>
+        <th class=3Dth colspan=3D1>12 Months Ended</th>
+      </tr>
+      <tr>
+        <th class=3Dth>Dec. 31, 2011<br></th>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop><strong>[DocumentInformationLineItems]</strong></td>
+        <td class=3Dtext><span></span></td>
+      </tr>
+      <tr class=3Dro>
+        <td class=3Dpl valign=3Dtop>Document Type</td>
+        <td class=3Dtext>8-K<span></span></td>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop>Amendment Flag</td>
+        <td class=3Dtext>false<span></span></td>
+      </tr>
+      <tr class=3Dro>
+        <td class=3Dpl valign=3Dtop>Document Period End Date</td>
+        <td class=3Dtext>Dec 31,
+		2011<span></span></td>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop><strong>[EntityInformationLineItems]</strong></td>
+        <td class=3Dtext><span></span></td>
+      </tr>
+      <tr class=3Dro>
+        <td class=3Dpl valign=3Dtop>Registrant Name</td>
+        <td class=3Dtext>DROPZERO<span></span></td>
+      </tr>
+      <tr class=3Dre>
+        <td class=3Dpl valign=3Dtop>Central Index Key</td>
+        <td class=3Dtext>9876543210<span></span></td>
+      </tr>
+      <tr class=3Dro>
+        <td class=3Dpl valign=3Dtop>Current Fiscal Year End Date</td>
+        <td class=3Dtext>--12-31<span></span></td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+------=_NextPart_205cd25c_524d_4950_a859_2aa55bed0295
+Content-Location: file:///C:/205cd25c_524d_4950_a859_2aa55bed0295/Worksheets/filelist.xml
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="us-ascii"
+
+<xml xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef=3D"../Workbook.html"/>
+ <o:File HRef=3D"Sheet01.html"/>
+ <o:File HRef=3D"Sheet02.html"/>
+ <o:File HRef=3D"Sheet03.html"/>
+</xml>
+------=_NextPart_205cd25c_524d_4950_a859_2aa55bed0295--
